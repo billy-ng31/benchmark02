@@ -1,0 +1,2125 @@
+=========================================================
+     BÁO CÁO ĐẦY ĐỦ CHI TIẾT VI PHẠM LỊCH TRỰC COI THI    
+=========================================================
+
+=> TỔNG ĐIỂM PHẠT CHUNG (BENCHMARK SCORE): 1563.40
+
+[PHẦN 1] CHI TIẾT VI PHẠM RÀNG BUỘC CỨNG (HARD CONSTRAINTS)
+-----------------------------------------------------------------
+📌 RB1_TrungThoiGian: PASS
+📌 RB2_NguonLuc: PASS
+📌 RB4_DuGiamThi: PASS
+📌 RB10_LienTiepKhacCoSo: PASS
+
+[PHẦN 2] CHI TIẾT VI PHẠM RÀNG BUỘC MỀM (SOFT CONSTRAINTS)
+-----------------------------------------------------------------
+[-] RB8_CongBang                   | Phạt:   49.15 điểm | Tổng độ lệch: 49.15 ca (Trung bình mu = 10.53)
+[-] RB3_ItNhat1Ca                  | Phạt:    0.00 điểm | Có 0 cán bộ không được phân công ca nào.
+[-] RB7_KhoangCach                 | Phạt:  981.72 điểm | Tổng quãng đường di chuyển: 9817.2 km.
+[-] RB9_NhieuCaCungNgayKhacCoSo    | Phạt:    2.00 điểm | Vi phạm 2 lần (gác >= 2 ca/ngày nhưng phải chạy khác cơ sở).
+[-] RB11_NghiNgoiChuaDu            | Phạt:   43.00 điểm | Vi phạm 43 lần (thời gian nghỉ giữa 2 ca < 3 tiếng).
+[-] RB6_UuTienNguoiLonTuoi         | Phạt:    0.93 điểm | Có 2 cán bộ >45t bị xếp quá số ca trần.
+[-] RB13_DaDangCongSu              | Phạt:  400.00 điểm | Có 400 cặp đôi phải gác chung với nhau >= 3 lần.
+[-] RB14_HanCheCuoiTuan            | Phạt:   54.00 điểm | Tổng số lượt cán bộ phải gác vào Thứ 7/Chủ Nhật: 54 lượt.
+[-] RB5_HanCheNu                   | Phạt:   32.60 điểm | Tổng số lượt cán bộ Nữ phải gác: 326 lượt.
+
+>> DANH SÁCH KHẢO SÁT CHI TIẾT TỪNG TRƯỜNG HỢP BỊ TRỪ ĐIỂM MỀM:
+
+* [RB3] Cán bộ không được phân công ca nào (0 ca):
+  -> Không có ai bị bỏ sót.
+
+* [RB8] Mức độ lệch tải công việc (Tiêu chuẩn trung bình μ = 10.53 ca/người):
+  -> Cán bộ CB001: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB002: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB003: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB004: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB005: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB006: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB007: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB008: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB009: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB010: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB011: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB012: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB013: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB014: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB015: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB016: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB017: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB018: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB019: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB020: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB021: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB022: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB023: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB024: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB025: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB026: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB027: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB028: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB029: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB030: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB031: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB032: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB033: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB034: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB035: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB036: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB037: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB038: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB039: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB040: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB041: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB042: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB043: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB044: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB045: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB046: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB047: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB048: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB049: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB050: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB051: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB052: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB053: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB054: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB055: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB056: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB057: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB058: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB059: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB060: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB061: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB062: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB063: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB064: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB065: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB066: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB067: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB068: Trực 12 ca (Chênh lệch: 1.47 ca)
+  -> Cán bộ CB069: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB070: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB071: Trực 11 ca (Chênh lệch: 0.47 ca)
+  -> Cán bộ CB072: Trực 10 ca (Chênh lệch: 0.53 ca)
+  -> Cán bộ CB073: Trực 11 ca (Chênh lệch: 0.47 ca)
+
+* [RB7] Chi tiết tổng quãng đường di chuyển của từng cán bộ (km):
+  -> Cán bộ CB001: Tổng quãng đường đi gác = 163.40 km
+  -> Cán bộ CB002: Tổng quãng đường đi gác = 121.00 km
+  -> Cán bộ CB003: Tổng quãng đường đi gác = 104.70 km
+  -> Cán bộ CB004: Tổng quãng đường đi gác = 99.80 km
+  -> Cán bộ CB005: Tổng quãng đường đi gác = 196.80 km
+  -> Cán bộ CB006: Tổng quãng đường đi gác = 94.40 km
+  -> Cán bộ CB007: Tổng quãng đường đi gác = 81.50 km
+  -> Cán bộ CB008: Tổng quãng đường đi gác = 83.00 km
+  -> Cán bộ CB009: Tổng quãng đường đi gác = 140.40 km
+  -> Cán bộ CB010: Tổng quãng đường đi gác = 161.90 km
+  -> Cán bộ CB011: Tổng quãng đường đi gác = 164.40 km
+  -> Cán bộ CB012: Tổng quãng đường đi gác = 154.20 km
+  -> Cán bộ CB013: Tổng quãng đường đi gác = 99.40 km
+  -> Cán bộ CB014: Tổng quãng đường đi gác = 209.80 km
+  -> Cán bộ CB015: Tổng quãng đường đi gác = 125.30 km
+  -> Cán bộ CB016: Tổng quãng đường đi gác = 86.80 km
+  -> Cán bộ CB017: Tổng quãng đường đi gác = 103.80 km
+  -> Cán bộ CB018: Tổng quãng đường đi gác = 99.30 km
+  -> Cán bộ CB019: Tổng quãng đường đi gác = 115.40 km
+  -> Cán bộ CB020: Tổng quãng đường đi gác = 144.00 km
+  -> Cán bộ CB021: Tổng quãng đường đi gác = 84.90 km
+  -> Cán bộ CB022: Tổng quãng đường đi gác = 130.00 km
+  -> Cán bộ CB023: Tổng quãng đường đi gác = 142.70 km
+  -> Cán bộ CB024: Tổng quãng đường đi gác = 125.00 km
+  -> Cán bộ CB025: Tổng quãng đường đi gác = 93.10 km
+  -> Cán bộ CB026: Tổng quãng đường đi gác = 216.30 km
+  -> Cán bộ CB027: Tổng quãng đường đi gác = 124.20 km
+  -> Cán bộ CB028: Tổng quãng đường đi gác = 120.20 km
+  -> Cán bộ CB029: Tổng quãng đường đi gác = 175.20 km
+  -> Cán bộ CB030: Tổng quãng đường đi gác = 114.60 km
+  -> Cán bộ CB031: Tổng quãng đường đi gác = 127.00 km
+  -> Cán bộ CB032: Tổng quãng đường đi gác = 124.60 km
+  -> Cán bộ CB033: Tổng quãng đường đi gác = 118.00 km
+  -> Cán bộ CB034: Tổng quãng đường đi gác = 118.40 km
+  -> Cán bộ CB035: Tổng quãng đường đi gác = 116.00 km
+  -> Cán bộ CB036: Tổng quãng đường đi gác = 137.20 km
+  -> Cán bộ CB037: Tổng quãng đường đi gác = 220.80 km
+  -> Cán bộ CB038: Tổng quãng đường đi gác = 160.80 km
+  -> Cán bộ CB039: Tổng quãng đường đi gác = 119.00 km
+  -> Cán bộ CB040: Tổng quãng đường đi gác = 127.00 km
+  -> Cán bộ CB041: Tổng quãng đường đi gác = 109.80 km
+  -> Cán bộ CB042: Tổng quãng đường đi gác = 137.20 km
+  -> Cán bộ CB043: Tổng quãng đường đi gác = 142.50 km
+  -> Cán bộ CB044: Tổng quãng đường đi gác = 158.00 km
+  -> Cán bộ CB045: Tổng quãng đường đi gác = 195.00 km
+  -> Cán bộ CB046: Tổng quãng đường đi gác = 126.00 km
+  -> Cán bộ CB047: Tổng quãng đường đi gác = 199.60 km
+  -> Cán bộ CB048: Tổng quãng đường đi gác = 128.20 km
+  -> Cán bộ CB049: Tổng quãng đường đi gác = 168.20 km
+  -> Cán bộ CB050: Tổng quãng đường đi gác = 132.90 km
+  -> Cán bộ CB051: Tổng quãng đường đi gác = 109.00 km
+  -> Cán bộ CB052: Tổng quãng đường đi gác = 203.70 km
+  -> Cán bộ CB053: Tổng quãng đường đi gác = 82.20 km
+  -> Cán bộ CB054: Tổng quãng đường đi gác = 115.40 km
+  -> Cán bộ CB055: Tổng quãng đường đi gác = 116.90 km
+  -> Cán bộ CB056: Tổng quãng đường đi gác = 134.40 km
+  -> Cán bộ CB057: Tổng quãng đường đi gác = 100.50 km
+  -> Cán bộ CB058: Tổng quãng đường đi gác = 140.60 km
+  -> Cán bộ CB059: Tổng quãng đường đi gác = 188.90 km
+  -> Cán bộ CB060: Tổng quãng đường đi gác = 113.30 km
+  -> Cán bộ CB061: Tổng quãng đường đi gác = 97.80 km
+  -> Cán bộ CB062: Tổng quãng đường đi gác = 174.80 km
+  -> Cán bộ CB063: Tổng quãng đường đi gác = 206.40 km
+  -> Cán bộ CB064: Tổng quãng đường đi gác = 126.60 km
+  -> Cán bộ CB065: Tổng quãng đường đi gác = 97.80 km
+  -> Cán bộ CB066: Tổng quãng đường đi gác = 153.60 km
+  -> Cán bộ CB067: Tổng quãng đường đi gác = 111.30 km
+  -> Cán bộ CB068: Tổng quãng đường đi gác = 140.40 km
+  -> Cán bộ CB069: Tổng quãng đường đi gác = 161.40 km
+  -> Cán bộ CB070: Tổng quãng đường đi gác = 143.70 km
+  -> Cán bộ CB071: Tổng quãng đường đi gác = 127.70 km
+  -> Cán bộ CB072: Tổng quãng đường đi gác = 126.40 km
+  -> Cán bộ CB073: Tổng quãng đường đi gác = 102.70 km
+
+* [RB9] Cán bộ trực nhiều ca cùng ngày nhưng phải di chuyển khác cơ sở:
+  -> Cán bộ CB010 ngày 12/06/2026 di chuyển: Cơ sở 1 gác ca 20260612_1 -->> Cơ sở 2 gác ca 20260612_3
+  -> Cán bộ CB055 ngày 08/06/2026 di chuyển: Cơ sở 2 gác ca 20260608_1 -->> Cơ sở 1 gác ca 20260608_3
+
+* [RB11] Chi tiết các ca xếp sát nhau có thời gian nghỉ ngơi chưa đủ (< 2 tiếng):
+  -> Cán bộ CB001: Ca 20260608_2 xong lúc 12:00, ca 20260608_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB002: Ca 20260602_2 xong lúc 12:00, ca 20260602_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB002: Ca 20260608_2 xong lúc 12:00, ca 20260608_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB003: Ca 20260602_2 xong lúc 12:00, ca 20260602_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB006: Ca 20260612_1 xong lúc 09:30, ca 20260612_2 bắt đầu lúc 09:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB007: Ca 20260602_2 xong lúc 12:00, ca 20260602_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB009: Ca 20260612_3 xong lúc 15:30, ca 20260612_4 bắt đầu lúc 15:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB012: Ca 20260601_2 xong lúc 12:00, ca 20260601_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB013: Ca 20260601_2 xong lúc 12:00, ca 20260601_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB013: Ca 20260603_2 xong lúc 12:00, ca 20260603_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB014: Ca 20260602_2 xong lúc 12:00, ca 20260602_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB025: Ca 20260602_2 xong lúc 12:00, ca 20260602_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB026: Ca 20260603_3 xong lúc 15:30, ca 20260603_4 bắt đầu lúc 15:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB028: Ca 20260605_2 xong lúc 12:00, ca 20260605_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB029: Ca 20260603_2 xong lúc 12:00, ca 20260603_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB029: Ca 20260612_3 xong lúc 15:30, ca 20260612_4 bắt đầu lúc 15:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB030: Ca 20260601_2 xong lúc 12:00, ca 20260601_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB031: Ca 20260608_2 xong lúc 12:00, ca 20260608_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB032: Ca 20260601_2 xong lúc 12:00, ca 20260601_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB034: Ca 20260602_2 xong lúc 12:00, ca 20260602_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB034: Ca 20260603_2 xong lúc 12:00, ca 20260603_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB035: Ca 20260603_2 xong lúc 12:00, ca 20260603_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB036: Ca 20260602_2 xong lúc 12:00, ca 20260602_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB040: Ca 20260612_1 xong lúc 09:30, ca 20260612_2 bắt đầu lúc 09:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB041: Ca 20260613_3 xong lúc 15:30, ca 20260613_4 bắt đầu lúc 15:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB042: Ca 20260603_2 xong lúc 12:00, ca 20260603_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB043: Ca 20260608_2 xong lúc 12:00, ca 20260608_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB044: Ca 20260605_3 xong lúc 15:30, ca 20260605_4 bắt đầu lúc 15:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB046: Ca 20260605_2 xong lúc 12:00, ca 20260605_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB046: Ca 20260612_3 xong lúc 15:30, ca 20260612_4 bắt đầu lúc 15:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB048: Ca 20260603_2 xong lúc 12:00, ca 20260603_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB049: Ca 20260603_2 xong lúc 12:00, ca 20260603_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB050: Ca 20260603_1 xong lúc 09:30, ca 20260603_2 bắt đầu lúc 09:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB052: Ca 20260603_2 xong lúc 12:00, ca 20260603_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB052: Ca 20260603_3 xong lúc 15:30, ca 20260603_4 bắt đầu lúc 15:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB058: Ca 20260608_2 xong lúc 12:00, ca 20260608_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+  -> Cán bộ CB059: Ca 20260603_1 xong lúc 09:30, ca 20260603_2 bắt đầu lúc 09:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB060: Ca 20260603_3 xong lúc 15:30, ca 20260603_4 bắt đầu lúc 15:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB067: Ca 20260603_1 xong lúc 09:30, ca 20260603_2 bắt đầu lúc 09:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB069: Ca 20260603_1 xong lúc 09:30, ca 20260603_2 bắt đầu lúc 09:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB072: Ca 20260602_3 xong lúc 15:30, ca 20260602_4 bắt đầu lúc 15:30 (Nghỉ 0.00 tiếng)
+  -> Cán bộ CB073: Ca 20260603_2 xong lúc 12:00, ca 20260603_3 bắt đầu lúc 13:00 (Nghỉ 1.00 tiếng)
+
+* [RB6] Cán bộ lớn tuổi (>45 tuổi) bị phân phối vượt trần trung bình:
+  -> Cán bộ CB007 (50 tuổi): Trực 11 ca (Vượt trần 0.47 ca)
+  -> Cán bộ CB018 (48 tuổi): Trực 11 ca (Vượt trần 0.47 ca)
+
+* [RB13] Chi tiết các cặp đôi gác chung với nhau quá nhiều lần (>= 3 lần):
+  -> Cặp (CB011, CB014): Gác chung 5 lần
+  -> Cặp (CB011, CB038): Gác chung 4 lần
+  -> Cặp (CB014, CB038): Gác chung 3 lần
+  -> Cặp (CB014, CB042): Gác chung 3 lần
+  -> Cặp (CB038, CB042): Gác chung 4 lần
+  -> Cặp (CB001, CB061): Gác chung 4 lần
+  -> Cặp (CB001, CB067): Gác chung 4 lần
+  -> Cặp (CB034, CB061): Gác chung 4 lần
+  -> Cặp (CB034, CB067): Gác chung 4 lần
+  -> Cặp (CB061, CB067): Gác chung 5 lần
+  -> Cặp (CB003, CB004): Gác chung 3 lần
+  -> Cặp (CB003, CB008): Gác chung 4 lần
+  -> Cặp (CB003, CB009): Gác chung 3 lần
+  -> Cặp (CB003, CB010): Gác chung 3 lần
+  -> Cặp (CB003, CB013): Gác chung 3 lần
+  -> Cặp (CB003, CB020): Gác chung 6 lần
+  -> Cặp (CB003, CB024): Gác chung 3 lần
+  -> Cặp (CB003, CB025): Gác chung 3 lần
+  -> Cặp (CB003, CB026): Gác chung 6 lần
+  -> Cặp (CB003, CB028): Gác chung 4 lần
+  -> Cặp (CB003, CB032): Gác chung 3 lần
+  -> Cặp (CB003, CB038): Gác chung 4 lần
+  -> Cặp (CB003, CB042): Gác chung 4 lần
+  -> Cặp (CB003, CB045): Gác chung 4 lần
+  -> Cặp (CB003, CB046): Gác chung 4 lần
+  -> Cặp (CB003, CB047): Gác chung 5 lần
+  -> Cặp (CB003, CB048): Gác chung 4 lần
+  -> Cặp (CB003, CB053): Gác chung 6 lần
+  -> Cặp (CB003, CB055): Gác chung 5 lần
+  -> Cặp (CB003, CB057): Gác chung 4 lần
+  -> Cặp (CB003, CB059): Gác chung 3 lần
+  -> Cặp (CB003, CB061): Gác chung 5 lần
+  -> Cặp (CB003, CB065): Gác chung 3 lần
+  -> Cặp (CB003, CB067): Gác chung 5 lần
+  -> Cặp (CB003, CB068): Gác chung 6 lần
+  -> Cặp (CB003, CB070): Gác chung 6 lần
+  -> Cặp (CB003, CB072): Gác chung 3 lần
+  -> Cặp (CB004, CB008): Gác chung 4 lần
+  -> Cặp (CB004, CB010): Gác chung 4 lần
+  -> Cặp (CB004, CB012): Gác chung 4 lần
+  -> Cặp (CB004, CB020): Gác chung 4 lần
+  -> Cặp (CB004, CB024): Gác chung 5 lần
+  -> Cặp (CB004, CB025): Gác chung 4 lần
+  -> Cặp (CB004, CB026): Gác chung 4 lần
+  -> Cặp (CB004, CB027): Gác chung 4 lần
+  -> Cặp (CB004, CB028): Gác chung 4 lần
+  -> Cặp (CB004, CB030): Gác chung 4 lần
+  -> Cặp (CB004, CB038): Gác chung 3 lần
+  -> Cặp (CB004, CB039): Gác chung 4 lần
+  -> Cặp (CB004, CB042): Gác chung 4 lần
+  -> Cặp (CB004, CB047): Gác chung 4 lần
+  -> Cặp (CB004, CB048): Gác chung 3 lần
+  -> Cặp (CB004, CB055): Gác chung 3 lần
+  -> Cặp (CB004, CB057): Gác chung 5 lần
+  -> Cặp (CB004, CB061): Gác chung 3 lần
+  -> Cặp (CB004, CB065): Gác chung 4 lần
+  -> Cặp (CB004, CB067): Gác chung 6 lần
+  -> Cặp (CB004, CB068): Gác chung 3 lần
+  -> Cặp (CB004, CB070): Gác chung 4 lần
+  -> Cặp (CB004, CB072): Gác chung 4 lần
+  -> Cặp (CB008, CB009): Gác chung 3 lần
+  -> Cặp (CB008, CB010): Gác chung 4 lần
+  -> Cặp (CB008, CB020): Gác chung 6 lần
+  -> Cặp (CB008, CB024): Gác chung 3 lần
+  -> Cặp (CB008, CB025): Gác chung 3 lần
+  -> Cặp (CB008, CB026): Gác chung 4 lần
+  -> Cặp (CB008, CB027): Gác chung 3 lần
+  -> Cặp (CB008, CB028): Gác chung 3 lần
+  -> Cặp (CB008, CB030): Gác chung 3 lần
+  -> Cặp (CB008, CB038): Gác chung 3 lần
+  -> Cặp (CB008, CB042): Gác chung 4 lần
+  -> Cặp (CB008, CB045): Gác chung 3 lần
+  -> Cặp (CB008, CB046): Gác chung 3 lần
+  -> Cặp (CB008, CB047): Gác chung 3 lần
+  -> Cặp (CB008, CB048): Gác chung 5 lần
+  -> Cặp (CB008, CB053): Gác chung 3 lần
+  -> Cặp (CB008, CB055): Gác chung 3 lần
+  -> Cặp (CB008, CB059): Gác chung 3 lần
+  -> Cặp (CB008, CB065): Gác chung 5 lần
+  -> Cặp (CB008, CB067): Gác chung 3 lần
+  -> Cặp (CB008, CB068): Gác chung 4 lần
+  -> Cặp (CB008, CB070): Gác chung 5 lần
+  -> Cặp (CB009, CB013): Gác chung 3 lần
+  -> Cặp (CB009, CB025): Gác chung 3 lần
+  -> Cặp (CB009, CB026): Gác chung 4 lần
+  -> Cặp (CB009, CB027): Gác chung 5 lần
+  -> Cặp (CB009, CB028): Gác chung 5 lần
+  -> Cặp (CB009, CB030): Gác chung 4 lần
+  -> Cặp (CB009, CB032): Gác chung 4 lần
+  -> Cặp (CB009, CB038): Gác chung 3 lần
+  -> Cặp (CB009, CB039): Gác chung 4 lần
+  -> Cặp (CB009, CB042): Gác chung 5 lần
+  -> Cặp (CB009, CB045): Gác chung 3 lần
+  -> Cặp (CB009, CB046): Gác chung 4 lần
+  -> Cặp (CB009, CB047): Gác chung 3 lần
+  -> Cặp (CB009, CB053): Gác chung 3 lần
+  -> Cặp (CB009, CB055): Gác chung 4 lần
+  -> Cặp (CB009, CB057): Gác chung 3 lần
+  -> Cặp (CB009, CB059): Gác chung 3 lần
+  -> Cặp (CB009, CB061): Gác chung 3 lần
+  -> Cặp (CB009, CB065): Gác chung 3 lần
+  -> Cặp (CB009, CB067): Gác chung 4 lần
+  -> Cặp (CB009, CB068): Gác chung 5 lần
+  -> Cặp (CB009, CB070): Gác chung 4 lần
+  -> Cặp (CB009, CB072): Gác chung 4 lần
+  -> Cặp (CB010, CB012): Gác chung 4 lần
+  -> Cặp (CB010, CB013): Gác chung 4 lần
+  -> Cặp (CB010, CB020): Gác chung 4 lần
+  -> Cặp (CB010, CB024): Gác chung 4 lần
+  -> Cặp (CB010, CB025): Gác chung 4 lần
+  -> Cặp (CB010, CB026): Gác chung 6 lần
+  -> Cặp (CB010, CB027): Gác chung 5 lần
+  -> Cặp (CB010, CB028): Gác chung 3 lần
+  -> Cặp (CB010, CB038): Gác chung 4 lần
+  -> Cặp (CB010, CB042): Gác chung 3 lần
+  -> Cặp (CB010, CB046): Gác chung 4 lần
+  -> Cặp (CB010, CB047): Gác chung 4 lần
+  -> Cặp (CB010, CB048): Gác chung 4 lần
+  -> Cặp (CB010, CB053): Gác chung 4 lần
+  -> Cặp (CB010, CB055): Gác chung 5 lần
+  -> Cặp (CB010, CB059): Gác chung 3 lần
+  -> Cặp (CB010, CB065): Gác chung 3 lần
+  -> Cặp (CB010, CB067): Gác chung 4 lần
+  -> Cặp (CB010, CB070): Gác chung 4 lần
+  -> Cặp (CB010, CB072): Gác chung 4 lần
+  -> Cặp (CB012, CB013): Gác chung 4 lần
+  -> Cặp (CB012, CB024): Gác chung 3 lần
+  -> Cặp (CB012, CB025): Gác chung 3 lần
+  -> Cặp (CB012, CB026): Gác chung 4 lần
+  -> Cặp (CB012, CB027): Gác chung 3 lần
+  -> Cặp (CB012, CB028): Gác chung 4 lần
+  -> Cặp (CB012, CB030): Gác chung 3 lần
+  -> Cặp (CB012, CB032): Gác chung 3 lần
+  -> Cặp (CB012, CB038): Gác chung 3 lần
+  -> Cặp (CB012, CB039): Gác chung 4 lần
+  -> Cặp (CB012, CB045): Gác chung 3 lần
+  -> Cặp (CB012, CB046): Gác chung 3 lần
+  -> Cặp (CB012, CB047): Gác chung 5 lần
+  -> Cặp (CB012, CB048): Gác chung 4 lần
+  -> Cặp (CB012, CB053): Gác chung 4 lần
+  -> Cặp (CB012, CB057): Gác chung 3 lần
+  -> Cặp (CB012, CB059): Gác chung 5 lần
+  -> Cặp (CB012, CB061): Gác chung 3 lần
+  -> Cặp (CB012, CB065): Gác chung 3 lần
+  -> Cặp (CB012, CB067): Gác chung 3 lần
+  -> Cặp (CB012, CB070): Gác chung 3 lần
+  -> Cặp (CB012, CB072): Gác chung 3 lần
+  -> Cặp (CB013, CB020): Gác chung 3 lần
+  -> Cặp (CB013, CB025): Gác chung 4 lần
+  -> Cặp (CB013, CB026): Gác chung 3 lần
+  -> Cặp (CB013, CB027): Gác chung 3 lần
+  -> Cặp (CB013, CB028): Gác chung 5 lần
+  -> Cặp (CB013, CB030): Gác chung 4 lần
+  -> Cặp (CB013, CB032): Gác chung 3 lần
+  -> Cặp (CB013, CB039): Gác chung 4 lần
+  -> Cặp (CB013, CB042): Gác chung 5 lần
+  -> Cặp (CB013, CB047): Gác chung 3 lần
+  -> Cặp (CB013, CB048): Gác chung 6 lần
+  -> Cặp (CB013, CB053): Gác chung 4 lần
+  -> Cặp (CB013, CB057): Gác chung 3 lần
+  -> Cặp (CB013, CB059): Gác chung 4 lần
+  -> Cặp (CB013, CB061): Gác chung 4 lần
+  -> Cặp (CB013, CB065): Gác chung 4 lần
+  -> Cặp (CB013, CB067): Gác chung 3 lần
+  -> Cặp (CB013, CB068): Gác chung 4 lần
+  -> Cặp (CB013, CB070): Gác chung 3 lần
+  -> Cặp (CB013, CB072): Gác chung 5 lần
+  -> Cặp (CB020, CB024): Gác chung 4 lần
+  -> Cặp (CB020, CB026): Gác chung 5 lần
+  -> Cặp (CB020, CB028): Gác chung 4 lần
+  -> Cặp (CB020, CB038): Gác chung 4 lần
+  -> Cặp (CB020, CB042): Gác chung 4 lần
+  -> Cặp (CB020, CB046): Gác chung 4 lần
+  -> Cặp (CB020, CB047): Gác chung 5 lần
+  -> Cặp (CB020, CB048): Gác chung 5 lần
+  -> Cặp (CB020, CB053): Gác chung 3 lần
+  -> Cặp (CB020, CB055): Gác chung 3 lần
+  -> Cặp (CB020, CB057): Gác chung 3 lần
+  -> Cặp (CB020, CB059): Gác chung 3 lần
+  -> Cặp (CB020, CB061): Gác chung 4 lần
+  -> Cặp (CB020, CB065): Gác chung 4 lần
+  -> Cặp (CB020, CB067): Gác chung 4 lần
+  -> Cặp (CB020, CB068): Gác chung 6 lần
+  -> Cặp (CB020, CB070): Gác chung 5 lần
+  -> Cặp (CB024, CB025): Gác chung 3 lần
+  -> Cặp (CB024, CB026): Gác chung 3 lần
+  -> Cặp (CB024, CB030): Gác chung 3 lần
+  -> Cặp (CB024, CB032): Gác chung 3 lần
+  -> Cặp (CB024, CB038): Gác chung 4 lần
+  -> Cặp (CB024, CB039): Gác chung 3 lần
+  -> Cặp (CB024, CB042): Gác chung 4 lần
+  -> Cặp (CB024, CB046): Gác chung 4 lần
+  -> Cặp (CB024, CB047): Gác chung 4 lần
+  -> Cặp (CB024, CB055): Gác chung 3 lần
+  -> Cặp (CB024, CB057): Gác chung 3 lần
+  -> Cặp (CB024, CB059): Gác chung 3 lần
+  -> Cặp (CB024, CB061): Gác chung 3 lần
+  -> Cặp (CB024, CB065): Gác chung 3 lần
+  -> Cặp (CB024, CB067): Gác chung 6 lần
+  -> Cặp (CB024, CB068): Gác chung 3 lần
+  -> Cặp (CB024, CB072): Gác chung 3 lần
+  -> Cặp (CB025, CB027): Gác chung 3 lần
+  -> Cặp (CB025, CB028): Gác chung 4 lần
+  -> Cặp (CB025, CB030): Gác chung 5 lần
+  -> Cặp (CB025, CB039): Gác chung 7 lần
+  -> Cặp (CB025, CB042): Gác chung 4 lần
+  -> Cặp (CB025, CB045): Gác chung 4 lần
+  -> Cặp (CB025, CB047): Gác chung 3 lần
+  -> Cặp (CB025, CB048): Gác chung 5 lần
+  -> Cặp (CB025, CB053): Gác chung 4 lần
+  -> Cặp (CB025, CB057): Gác chung 4 lần
+  -> Cặp (CB025, CB059): Gác chung 4 lần
+  -> Cặp (CB025, CB061): Gác chung 4 lần
+  -> Cặp (CB025, CB065): Gác chung 5 lần
+  -> Cặp (CB025, CB067): Gác chung 3 lần
+  -> Cặp (CB025, CB068): Gác chung 3 lần
+  -> Cặp (CB025, CB070): Gác chung 4 lần
+  -> Cặp (CB025, CB072): Gác chung 5 lần
+  -> Cặp (CB026, CB027): Gác chung 6 lần
+  -> Cặp (CB026, CB028): Gác chung 5 lần
+  -> Cặp (CB026, CB030): Gác chung 3 lần
+  -> Cặp (CB026, CB032): Gác chung 5 lần
+  -> Cặp (CB026, CB038): Gác chung 6 lần
+  -> Cặp (CB026, CB039): Gác chung 3 lần
+  -> Cặp (CB026, CB042): Gác chung 3 lần
+  -> Cặp (CB026, CB045): Gác chung 4 lần
+  -> Cặp (CB026, CB046): Gác chung 5 lần
+  -> Cặp (CB026, CB047): Gác chung 6 lần
+  -> Cặp (CB026, CB048): Gác chung 4 lần
+  -> Cặp (CB026, CB053): Gác chung 5 lần
+  -> Cặp (CB026, CB055): Gác chung 7 lần
+  -> Cặp (CB026, CB057): Gác chung 5 lần
+  -> Cặp (CB026, CB059): Gác chung 5 lần
+  -> Cặp (CB026, CB061): Gác chung 4 lần
+  -> Cặp (CB026, CB065): Gác chung 3 lần
+  -> Cặp (CB026, CB067): Gác chung 6 lần
+  -> Cặp (CB026, CB068): Gác chung 4 lần
+  -> Cặp (CB026, CB070): Gác chung 5 lần
+  -> Cặp (CB026, CB072): Gác chung 3 lần
+  -> Cặp (CB027, CB028): Gác chung 6 lần
+  -> Cặp (CB027, CB030): Gác chung 5 lần
+  -> Cặp (CB027, CB032): Gác chung 4 lần
+  -> Cặp (CB027, CB038): Gác chung 4 lần
+  -> Cặp (CB027, CB039): Gác chung 5 lần
+  -> Cặp (CB027, CB042): Gác chung 4 lần
+  -> Cặp (CB027, CB045): Gác chung 4 lần
+  -> Cặp (CB027, CB046): Gác chung 3 lần
+  -> Cặp (CB027, CB047): Gác chung 3 lần
+  -> Cặp (CB027, CB048): Gác chung 3 lần
+  -> Cặp (CB027, CB053): Gác chung 3 lần
+  -> Cặp (CB027, CB055): Gác chung 5 lần
+  -> Cặp (CB027, CB057): Gác chung 5 lần
+  -> Cặp (CB027, CB059): Gác chung 3 lần
+  -> Cặp (CB027, CB061): Gác chung 3 lần
+  -> Cặp (CB027, CB065): Gác chung 3 lần
+  -> Cặp (CB027, CB067): Gác chung 3 lần
+  -> Cặp (CB027, CB068): Gác chung 4 lần
+  -> Cặp (CB027, CB070): Gác chung 5 lần
+  -> Cặp (CB027, CB072): Gác chung 4 lần
+  -> Cặp (CB028, CB030): Gác chung 4 lần
+  -> Cặp (CB028, CB032): Gác chung 3 lần
+  -> Cặp (CB028, CB038): Gác chung 3 lần
+  -> Cặp (CB028, CB039): Gác chung 6 lần
+  -> Cặp (CB028, CB042): Gác chung 5 lần
+  -> Cặp (CB028, CB045): Gác chung 3 lần
+  -> Cặp (CB028, CB046): Gác chung 5 lần
+  -> Cặp (CB028, CB047): Gác chung 4 lần
+  -> Cặp (CB028, CB048): Gác chung 5 lần
+  -> Cặp (CB028, CB053): Gác chung 4 lần
+  -> Cặp (CB028, CB055): Gác chung 3 lần
+  -> Cặp (CB028, CB057): Gác chung 5 lần
+  -> Cặp (CB028, CB059): Gác chung 5 lần
+  -> Cặp (CB028, CB061): Gác chung 5 lần
+  -> Cặp (CB028, CB065): Gác chung 6 lần
+  -> Cặp (CB028, CB067): Gác chung 4 lần
+  -> Cặp (CB028, CB068): Gác chung 5 lần
+  -> Cặp (CB028, CB070): Gác chung 5 lần
+  -> Cặp (CB028, CB072): Gác chung 5 lần
+  -> Cặp (CB030, CB038): Gác chung 4 lần
+  -> Cặp (CB030, CB039): Gác chung 7 lần
+  -> Cặp (CB030, CB042): Gác chung 4 lần
+  -> Cặp (CB030, CB045): Gác chung 3 lần
+  -> Cặp (CB030, CB047): Gác chung 3 lần
+  -> Cặp (CB030, CB048): Gác chung 5 lần
+  -> Cặp (CB030, CB053): Gác chung 3 lần
+  -> Cặp (CB030, CB055): Gác chung 3 lần
+  -> Cặp (CB030, CB057): Gác chung 6 lần
+  -> Cặp (CB030, CB059): Gác chung 4 lần
+  -> Cặp (CB030, CB061): Gác chung 5 lần
+  -> Cặp (CB030, CB065): Gác chung 4 lần
+  -> Cặp (CB030, CB068): Gác chung 3 lần
+  -> Cặp (CB030, CB070): Gác chung 5 lần
+  -> Cặp (CB030, CB072): Gác chung 4 lần
+  -> Cặp (CB032, CB042): Gác chung 3 lần
+  -> Cặp (CB032, CB045): Gác chung 4 lần
+  -> Cặp (CB032, CB046): Gác chung 3 lần
+  -> Cặp (CB032, CB055): Gác chung 4 lần
+  -> Cặp (CB032, CB057): Gác chung 3 lần
+  -> Cặp (CB032, CB067): Gác chung 6 lần
+  -> Cặp (CB032, CB068): Gác chung 5 lần
+  -> Cặp (CB038, CB039): Gác chung 3 lần
+  -> Cặp (CB038, CB045): Gác chung 4 lần
+  -> Cặp (CB038, CB046): Gác chung 5 lần
+  -> Cặp (CB038, CB047): Gác chung 6 lần
+  -> Cặp (CB038, CB048): Gác chung 4 lần
+  -> Cặp (CB038, CB053): Gác chung 5 lần
+  -> Cặp (CB038, CB055): Gác chung 5 lần
+  -> Cặp (CB038, CB057): Gác chung 5 lần
+  -> Cặp (CB038, CB059): Gác chung 5 lần
+  -> Cặp (CB038, CB061): Gác chung 4 lần
+  -> Cặp (CB038, CB067): Gác chung 3 lần
+  -> Cặp (CB038, CB068): Gác chung 4 lần
+  -> Cặp (CB038, CB070): Gác chung 6 lần
+  -> Cặp (CB039, CB042): Gác chung 4 lần
+  -> Cặp (CB039, CB045): Gác chung 4 lần
+  -> Cặp (CB039, CB046): Gác chung 3 lần
+  -> Cặp (CB039, CB047): Gác chung 3 lần
+  -> Cặp (CB039, CB048): Gác chung 5 lần
+  -> Cặp (CB039, CB053): Gác chung 4 lần
+  -> Cặp (CB039, CB057): Gác chung 6 lần
+  -> Cặp (CB039, CB059): Gác chung 5 lần
+  -> Cặp (CB039, CB061): Gác chung 5 lần
+  -> Cặp (CB039, CB065): Gác chung 5 lần
+  -> Cặp (CB039, CB067): Gác chung 3 lần
+  -> Cặp (CB039, CB068): Gác chung 3 lần
+  -> Cặp (CB039, CB070): Gác chung 4 lần
+  -> Cặp (CB039, CB072): Gác chung 5 lần
+  -> Cặp (CB042, CB046): Gác chung 3 lần
+  -> Cặp (CB042, CB047): Gác chung 4 lần
+  -> Cặp (CB042, CB048): Gác chung 4 lần
+  -> Cặp (CB042, CB053): Gác chung 3 lần
+  -> Cặp (CB042, CB057): Gác chung 4 lần
+  -> Cặp (CB042, CB061): Gác chung 4 lần
+  -> Cặp (CB042, CB065): Gác chung 3 lần
+  -> Cặp (CB042, CB067): Gác chung 5 lần
+  -> Cặp (CB042, CB068): Gác chung 6 lần
+  -> Cặp (CB042, CB070): Gác chung 5 lần
+  -> Cặp (CB042, CB072): Gác chung 5 lần
+  -> Cặp (CB045, CB046): Gác chung 4 lần
+  -> Cặp (CB045, CB047): Gác chung 5 lần
+  -> Cặp (CB045, CB048): Gác chung 3 lần
+  -> Cặp (CB045, CB053): Gác chung 6 lần
+  -> Cặp (CB045, CB055): Gác chung 4 lần
+  -> Cặp (CB045, CB059): Gác chung 5 lần
+  -> Cặp (CB045, CB065): Gác chung 3 lần
+  -> Cặp (CB045, CB068): Gác chung 4 lần
+  -> Cặp (CB045, CB070): Gác chung 5 lần
+  -> Cặp (CB045, CB072): Gác chung 3 lần
+  -> Cặp (CB046, CB047): Gác chung 4 lần
+  -> Cặp (CB046, CB048): Gác chung 3 lần
+  -> Cặp (CB046, CB053): Gác chung 5 lần
+  -> Cặp (CB046, CB055): Gác chung 4 lần
+  -> Cặp (CB046, CB057): Gác chung 3 lần
+  -> Cặp (CB046, CB059): Gác chung 6 lần
+  -> Cặp (CB046, CB061): Gác chung 3 lần
+  -> Cặp (CB046, CB065): Gác chung 4 lần
+  -> Cặp (CB046, CB067): Gác chung 4 lần
+  -> Cặp (CB046, CB068): Gác chung 4 lần
+  -> Cặp (CB046, CB070): Gác chung 4 lần
+  -> Cặp (CB047, CB048): Gác chung 4 lần
+  -> Cặp (CB047, CB053): Gác chung 5 lần
+  -> Cặp (CB047, CB055): Gác chung 3 lần
+  -> Cặp (CB047, CB057): Gác chung 4 lần
+  -> Cặp (CB047, CB059): Gác chung 5 lần
+  -> Cặp (CB047, CB061): Gác chung 5 lần
+  -> Cặp (CB047, CB065): Gác chung 3 lần
+  -> Cặp (CB047, CB067): Gác chung 4 lần
+  -> Cặp (CB047, CB068): Gác chung 6 lần
+  -> Cặp (CB047, CB070): Gác chung 6 lần
+  -> Cặp (CB047, CB072): Gác chung 3 lần
+  -> Cặp (CB048, CB053): Gác chung 6 lần
+  -> Cặp (CB048, CB057): Gác chung 5 lần
+  -> Cặp (CB048, CB059): Gác chung 6 lần
+  -> Cặp (CB048, CB061): Gác chung 5 lần
+  -> Cặp (CB048, CB065): Gác chung 5 lần
+  -> Cặp (CB048, CB068): Gác chung 4 lần
+  -> Cặp (CB048, CB070): Gác chung 6 lần
+  -> Cặp (CB048, CB072): Gác chung 4 lần
+  -> Cặp (CB053, CB055): Gác chung 5 lần
+  -> Cặp (CB053, CB057): Gác chung 3 lần
+  -> Cặp (CB053, CB059): Gác chung 6 lần
+  -> Cặp (CB053, CB061): Gác chung 3 lần
+  -> Cặp (CB053, CB065): Gác chung 3 lần
+  -> Cặp (CB053, CB068): Gác chung 4 lần
+  -> Cặp (CB053, CB070): Gác chung 6 lần
+  -> Cặp (CB053, CB072): Gác chung 4 lần
+  -> Cặp (CB055, CB057): Gác chung 4 lần
+  -> Cặp (CB055, CB059): Gác chung 4 lần
+  -> Cặp (CB055, CB061): Gác chung 3 lần
+  -> Cặp (CB055, CB065): Gác chung 3 lần
+  -> Cặp (CB055, CB067): Gác chung 5 lần
+  -> Cặp (CB055, CB068): Gác chung 3 lần
+  -> Cặp (CB055, CB070): Gác chung 3 lần
+  -> Cặp (CB055, CB072): Gác chung 3 lần
+  -> Cặp (CB057, CB059): Gác chung 4 lần
+  -> Cặp (CB057, CB061): Gác chung 7 lần
+  -> Cặp (CB057, CB065): Gác chung 3 lần
+  -> Cặp (CB057, CB067): Gác chung 5 lần
+  -> Cặp (CB057, CB068): Gác chung 4 lần
+  -> Cặp (CB057, CB070): Gác chung 5 lần
+  -> Cặp (CB057, CB072): Gác chung 3 lần
+  -> Cặp (CB059, CB061): Gác chung 5 lần
+  -> Cặp (CB059, CB065): Gác chung 6 lần
+  -> Cặp (CB059, CB067): Gác chung 3 lần
+  -> Cặp (CB059, CB068): Gác chung 3 lần
+  -> Cặp (CB059, CB070): Gác chung 4 lần
+  -> Cặp (CB059, CB072): Gác chung 3 lần
+  -> Cặp (CB061, CB065): Gác chung 4 lần
+  -> Cặp (CB061, CB068): Gác chung 5 lần
+  -> Cặp (CB061, CB070): Gác chung 4 lần
+  -> Cặp (CB061, CB072): Gác chung 3 lần
+  -> Cặp (CB065, CB067): Gác chung 3 lần
+  -> Cặp (CB065, CB068): Gác chung 3 lần
+  -> Cặp (CB065, CB070): Gác chung 3 lần
+  -> Cặp (CB065, CB072): Gác chung 4 lần
+  -> Cặp (CB067, CB068): Gác chung 5 lần
+  -> Cặp (CB067, CB070): Gác chung 3 lần
+  -> Cặp (CB067, CB072): Gác chung 4 lần
+  -> Cặp (CB068, CB070): Gác chung 6 lần
+  -> Cặp (CB068, CB072): Gác chung 3 lần
+  -> Cặp (CB070, CB072): Gác chung 3 lần
+  -> Cặp (CB001, CB005): Gác chung 6 lần
+  -> Cặp (CB001, CB007): Gác chung 4 lần
+  -> Cặp (CB001, CB011): Gác chung 3 lần
+  -> Cặp (CB001, CB012): Gác chung 3 lần
+  -> Cặp (CB001, CB015): Gác chung 5 lần
+  -> Cặp (CB001, CB016): Gác chung 3 lần
+  -> Cặp (CB001, CB017): Gác chung 5 lần
+  -> Cặp (CB001, CB019): Gác chung 4 lần
+  -> Cặp (CB001, CB022): Gác chung 3 lần
+  -> Cặp (CB001, CB030): Gác chung 4 lần
+  -> Cặp (CB001, CB032): Gác chung 4 lần
+  -> Cặp (CB001, CB035): Gác chung 4 lần
+  -> Cặp (CB001, CB037): Gác chung 3 lần
+  -> Cặp (CB001, CB041): Gác chung 4 lần
+  -> Cặp (CB001, CB049): Gác chung 3 lần
+  -> Cặp (CB001, CB051): Gác chung 4 lần
+  -> Cặp (CB001, CB060): Gác chung 3 lần
+  -> Cặp (CB001, CB063): Gác chung 4 lần
+  -> Cặp (CB001, CB066): Gác chung 4 lần
+  -> Cặp (CB001, CB069): Gác chung 3 lần
+  -> Cặp (CB001, CB071): Gác chung 5 lần
+  -> Cặp (CB001, CB073): Gác chung 3 lần
+  -> Cặp (CB005, CB007): Gác chung 4 lần
+  -> Cặp (CB005, CB011): Gác chung 3 lần
+  -> Cặp (CB005, CB012): Gác chung 3 lần
+  -> Cặp (CB005, CB015): Gác chung 5 lần
+  -> Cặp (CB005, CB017): Gác chung 4 lần
+  -> Cặp (CB005, CB019): Gác chung 3 lần
+  -> Cặp (CB005, CB022): Gác chung 3 lần
+  -> Cặp (CB005, CB030): Gác chung 4 lần
+  -> Cặp (CB005, CB032): Gác chung 5 lần
+  -> Cặp (CB005, CB035): Gác chung 3 lần
+  -> Cặp (CB005, CB037): Gác chung 5 lần
+  -> Cặp (CB005, CB041): Gác chung 5 lần
+  -> Cặp (CB005, CB049): Gác chung 3 lần
+  -> Cặp (CB005, CB051): Gác chung 5 lần
+  -> Cặp (CB005, CB052): Gác chung 4 lần
+  -> Cặp (CB005, CB060): Gác chung 5 lần
+  -> Cặp (CB005, CB062): Gác chung 3 lần
+  -> Cặp (CB005, CB063): Gác chung 3 lần
+  -> Cặp (CB005, CB066): Gác chung 4 lần
+  -> Cặp (CB005, CB069): Gác chung 4 lần
+  -> Cặp (CB005, CB071): Gác chung 8 lần
+  -> Cặp (CB005, CB073): Gác chung 3 lần
+  -> Cặp (CB006, CB007): Gác chung 4 lần
+  -> Cặp (CB006, CB011): Gác chung 4 lần
+  -> Cặp (CB006, CB012): Gác chung 3 lần
+  -> Cặp (CB006, CB013): Gác chung 6 lần
+  -> Cặp (CB006, CB014): Gác chung 3 lần
+  -> Cặp (CB006, CB015): Gác chung 4 lần
+  -> Cặp (CB006, CB016): Gác chung 4 lần
+  -> Cặp (CB006, CB017): Gác chung 5 lần
+  -> Cặp (CB006, CB019): Gác chung 4 lần
+  -> Cặp (CB006, CB030): Gác chung 4 lần
+  -> Cặp (CB006, CB037): Gác chung 6 lần
+  -> Cặp (CB006, CB041): Gác chung 4 lần
+  -> Cặp (CB006, CB049): Gác chung 4 lần
+  -> Cặp (CB006, CB051): Gác chung 5 lần
+  -> Cặp (CB006, CB052): Gác chung 4 lần
+  -> Cặp (CB006, CB062): Gác chung 5 lần
+  -> Cặp (CB006, CB063): Gác chung 4 lần
+  -> Cặp (CB006, CB066): Gác chung 4 lần
+  -> Cặp (CB006, CB071): Gác chung 3 lần
+  -> Cặp (CB006, CB073): Gác chung 5 lần
+  -> Cặp (CB007, CB011): Gác chung 4 lần
+  -> Cặp (CB007, CB013): Gác chung 3 lần
+  -> Cặp (CB007, CB014): Gác chung 6 lần
+  -> Cặp (CB007, CB016): Gác chung 4 lần
+  -> Cặp (CB007, CB017): Gác chung 6 lần
+  -> Cặp (CB007, CB019): Gác chung 7 lần
+  -> Cặp (CB007, CB022): Gác chung 3 lần
+  -> Cặp (CB007, CB030): Gác chung 3 lần
+  -> Cặp (CB007, CB032): Gác chung 3 lần
+  -> Cặp (CB007, CB035): Gác chung 3 lần
+  -> Cặp (CB007, CB037): Gác chung 3 lần
+  -> Cặp (CB007, CB041): Gác chung 3 lần
+  -> Cặp (CB007, CB051): Gác chung 6 lần
+  -> Cặp (CB007, CB060): Gác chung 5 lần
+  -> Cặp (CB007, CB063): Gác chung 7 lần
+  -> Cặp (CB007, CB066): Gác chung 6 lần
+  -> Cặp (CB007, CB069): Gác chung 5 lần
+  -> Cặp (CB007, CB071): Gác chung 5 lần
+  -> Cặp (CB011, CB012): Gác chung 3 lần
+  -> Cặp (CB011, CB015): Gác chung 4 lần
+  -> Cặp (CB011, CB016): Gác chung 4 lần
+  -> Cặp (CB011, CB017): Gác chung 5 lần
+  -> Cặp (CB011, CB019): Gác chung 3 lần
+  -> Cặp (CB011, CB022): Gác chung 3 lần
+  -> Cặp (CB011, CB030): Gác chung 4 lần
+  -> Cặp (CB011, CB037): Gác chung 4 lần
+  -> Cặp (CB011, CB041): Gác chung 5 lần
+  -> Cặp (CB011, CB049): Gác chung 4 lần
+  -> Cặp (CB011, CB051): Gác chung 5 lần
+  -> Cặp (CB011, CB052): Gác chung 4 lần
+  -> Cặp (CB011, CB060): Gác chung 3 lần
+  -> Cặp (CB011, CB062): Gác chung 5 lần
+  -> Cặp (CB011, CB063): Gác chung 4 lần
+  -> Cặp (CB011, CB066): Gác chung 3 lần
+  -> Cặp (CB011, CB069): Gác chung 3 lần
+  -> Cặp (CB011, CB071): Gác chung 4 lần
+  -> Cặp (CB012, CB015): Gác chung 5 lần
+  -> Cặp (CB012, CB016): Gác chung 3 lần
+  -> Cặp (CB012, CB035): Gác chung 3 lần
+  -> Cặp (CB012, CB037): Gác chung 4 lần
+  -> Cặp (CB012, CB041): Gác chung 3 lần
+  -> Cặp (CB012, CB049): Gác chung 3 lần
+  -> Cặp (CB012, CB051): Gác chung 3 lần
+  -> Cặp (CB012, CB060): Gác chung 4 lần
+  -> Cặp (CB012, CB066): Gác chung 3 lần
+  -> Cặp (CB012, CB069): Gác chung 3 lần
+  -> Cặp (CB012, CB071): Gác chung 3 lần
+  -> Cặp (CB013, CB014): Gác chung 3 lần
+  -> Cặp (CB013, CB015): Gác chung 4 lần
+  -> Cặp (CB013, CB016): Gác chung 5 lần
+  -> Cặp (CB013, CB017): Gác chung 4 lần
+  -> Cặp (CB013, CB019): Gác chung 4 lần
+  -> Cặp (CB013, CB035): Gác chung 3 lần
+  -> Cặp (CB013, CB037): Gác chung 4 lần
+  -> Cặp (CB013, CB041): Gác chung 3 lần
+  -> Cặp (CB013, CB049): Gác chung 4 lần
+  -> Cặp (CB013, CB051): Gác chung 3 lần
+  -> Cặp (CB013, CB052): Gác chung 4 lần
+  -> Cặp (CB013, CB063): Gác chung 3 lần
+  -> Cặp (CB013, CB066): Gác chung 4 lần
+  -> Cặp (CB013, CB073): Gác chung 5 lần
+  -> Cặp (CB014, CB015): Gác chung 3 lần
+  -> Cặp (CB014, CB016): Gác chung 4 lần
+  -> Cặp (CB014, CB017): Gác chung 4 lần
+  -> Cặp (CB014, CB019): Gác chung 5 lần
+  -> Cặp (CB014, CB022): Gác chung 4 lần
+  -> Cặp (CB014, CB030): Gác chung 3 lần
+  -> Cặp (CB014, CB035): Gác chung 3 lần
+  -> Cặp (CB014, CB049): Gác chung 3 lần
+  -> Cặp (CB014, CB051): Gác chung 4 lần
+  -> Cặp (CB014, CB052): Gác chung 4 lần
+  -> Cặp (CB014, CB060): Gác chung 3 lần
+  -> Cặp (CB014, CB063): Gác chung 5 lần
+  -> Cặp (CB014, CB066): Gác chung 5 lần
+  -> Cặp (CB014, CB069): Gác chung 4 lần
+  -> Cặp (CB015, CB016): Gác chung 4 lần
+  -> Cặp (CB015, CB017): Gác chung 4 lần
+  -> Cặp (CB015, CB022): Gác chung 3 lần
+  -> Cặp (CB015, CB030): Gác chung 5 lần
+  -> Cặp (CB015, CB032): Gác chung 3 lần
+  -> Cặp (CB015, CB035): Gác chung 3 lần
+  -> Cặp (CB015, CB037): Gác chung 5 lần
+  -> Cặp (CB015, CB041): Gác chung 5 lần
+  -> Cặp (CB015, CB049): Gác chung 5 lần
+  -> Cặp (CB015, CB051): Gác chung 4 lần
+  -> Cặp (CB015, CB052): Gác chung 6 lần
+  -> Cặp (CB015, CB060): Gác chung 4 lần
+  -> Cặp (CB015, CB062): Gác chung 4 lần
+  -> Cặp (CB015, CB063): Gác chung 3 lần
+  -> Cặp (CB015, CB069): Gác chung 4 lần
+  -> Cặp (CB015, CB071): Gác chung 4 lần
+  -> Cặp (CB015, CB073): Gác chung 5 lần
+  -> Cặp (CB016, CB017): Gác chung 5 lần
+  -> Cặp (CB016, CB019): Gác chung 5 lần
+  -> Cặp (CB016, CB022): Gác chung 4 lần
+  -> Cặp (CB016, CB030): Gác chung 3 lần
+  -> Cặp (CB016, CB032): Gác chung 4 lần
+  -> Cặp (CB016, CB035): Gác chung 4 lần
+  -> Cặp (CB016, CB049): Gác chung 5 lần
+  -> Cặp (CB016, CB051): Gác chung 5 lần
+  -> Cặp (CB016, CB052): Gác chung 3 lần
+  -> Cặp (CB016, CB060): Gác chung 3 lần
+  -> Cặp (CB016, CB062): Gác chung 3 lần
+  -> Cặp (CB016, CB063): Gác chung 5 lần
+  -> Cặp (CB016, CB066): Gác chung 4 lần
+  -> Cặp (CB016, CB069): Gác chung 3 lần
+  -> Cặp (CB016, CB071): Gác chung 4 lần
+  -> Cặp (CB016, CB073): Gác chung 4 lần
+  -> Cặp (CB017, CB019): Gác chung 6 lần
+  -> Cặp (CB017, CB022): Gác chung 3 lần
+  -> Cặp (CB017, CB030): Gác chung 5 lần
+  -> Cặp (CB017, CB032): Gác chung 3 lần
+  -> Cặp (CB017, CB035): Gác chung 4 lần
+  -> Cặp (CB017, CB037): Gác chung 4 lần
+  -> Cặp (CB017, CB041): Gác chung 5 lần
+  -> Cặp (CB017, CB049): Gác chung 5 lần
+  -> Cặp (CB017, CB051): Gác chung 5 lần
+  -> Cặp (CB017, CB052): Gác chung 4 lần
+  -> Cặp (CB017, CB062): Gác chung 4 lần
+  -> Cặp (CB017, CB063): Gác chung 7 lần
+  -> Cặp (CB017, CB066): Gác chung 4 lần
+  -> Cặp (CB017, CB069): Gác chung 5 lần
+  -> Cặp (CB017, CB071): Gác chung 6 lần
+  -> Cặp (CB017, CB073): Gác chung 3 lần
+  -> Cặp (CB019, CB022): Gác chung 4 lần
+  -> Cặp (CB019, CB030): Gác chung 3 lần
+  -> Cặp (CB019, CB032): Gác chung 3 lần
+  -> Cặp (CB019, CB035): Gác chung 4 lần
+  -> Cặp (CB019, CB041): Gác chung 3 lần
+  -> Cặp (CB019, CB049): Gác chung 3 lần
+  -> Cặp (CB019, CB051): Gác chung 4 lần
+  -> Cặp (CB019, CB052): Gác chung 3 lần
+  -> Cặp (CB019, CB060): Gác chung 3 lần
+  -> Cặp (CB019, CB063): Gác chung 5 lần
+  -> Cặp (CB019, CB066): Gác chung 5 lần
+  -> Cặp (CB019, CB069): Gác chung 4 lần
+  -> Cặp (CB019, CB071): Gác chung 4 lần
+  -> Cặp (CB019, CB073): Gác chung 3 lần
+  -> Cặp (CB022, CB030): Gác chung 3 lần
+  -> Cặp (CB022, CB035): Gác chung 3 lần
+  -> Cặp (CB022, CB049): Gác chung 5 lần
+  -> Cặp (CB022, CB051): Gác chung 5 lần
+  -> Cặp (CB022, CB060): Gác chung 5 lần
+  -> Cặp (CB022, CB062): Gác chung 5 lần
+  -> Cặp (CB022, CB063): Gác chung 5 lần
+  -> Cặp (CB022, CB066): Gác chung 4 lần
+  -> Cặp (CB022, CB069): Gác chung 4 lần
+  -> Cặp (CB022, CB071): Gác chung 3 lần
+  -> Cặp (CB022, CB073): Gác chung 4 lần
+  -> Cặp (CB030, CB035): Gác chung 4 lần
+  -> Cặp (CB030, CB037): Gác chung 3 lần
+  -> Cặp (CB030, CB041): Gác chung 5 lần
+  -> Cặp (CB030, CB049): Gác chung 5 lần
+  -> Cặp (CB030, CB051): Gác chung 4 lần
+  -> Cặp (CB030, CB052): Gác chung 4 lần
+  -> Cặp (CB030, CB062): Gác chung 4 lần
+  -> Cặp (CB030, CB063): Gác chung 3 lần
+  -> Cặp (CB030, CB069): Gác chung 4 lần
+  -> Cặp (CB030, CB073): Gác chung 4 lần
+  -> Cặp (CB032, CB037): Gác chung 4 lần
+  -> Cặp (CB032, CB051): Gác chung 3 lần
+  -> Cặp (CB032, CB052): Gác chung 3 lần
+  -> Cặp (CB032, CB060): Gác chung 3 lần
+  -> Cặp (CB032, CB062): Gác chung 3 lần
+  -> Cặp (CB032, CB063): Gác chung 3 lần
+  -> Cặp (CB032, CB066): Gác chung 4 lần
+  -> Cặp (CB032, CB071): Gác chung 6 lần
+  -> Cặp (CB032, CB073): Gác chung 3 lần
+  -> Cặp (CB035, CB041): Gác chung 4 lần
+  -> Cặp (CB035, CB049): Gác chung 4 lần
+  -> Cặp (CB035, CB052): Gác chung 3 lần
+  -> Cặp (CB035, CB060): Gác chung 3 lần
+  -> Cặp (CB035, CB062): Gác chung 3 lần
+  -> Cặp (CB035, CB063): Gác chung 4 lần
+  -> Cặp (CB035, CB066): Gác chung 4 lần
+  -> Cặp (CB035, CB069): Gác chung 4 lần
+  -> Cặp (CB035, CB073): Gác chung 3 lần
+  -> Cặp (CB037, CB041): Gác chung 4 lần
+  -> Cặp (CB037, CB049): Gác chung 5 lần
+  -> Cặp (CB037, CB051): Gác chung 4 lần
+  -> Cặp (CB037, CB052): Gác chung 5 lần
+  -> Cặp (CB037, CB060): Gác chung 3 lần
+  -> Cặp (CB037, CB062): Gác chung 4 lần
+  -> Cặp (CB037, CB063): Gác chung 3 lần
+  -> Cặp (CB037, CB066): Gác chung 4 lần
+  -> Cặp (CB037, CB071): Gác chung 5 lần
+  -> Cặp (CB037, CB073): Gác chung 4 lần
+  -> Cặp (CB041, CB049): Gác chung 3 lần
+  -> Cặp (CB041, CB052): Gác chung 5 lần
+  -> Cặp (CB041, CB062): Gác chung 3 lần
+  -> Cặp (CB041, CB063): Gác chung 3 lần
+  -> Cặp (CB041, CB069): Gác chung 4 lần
+  -> Cặp (CB041, CB071): Gác chung 4 lần
+  -> Cặp (CB049, CB051): Gác chung 6 lần
+  -> Cặp (CB049, CB052): Gác chung 4 lần
+  -> Cặp (CB049, CB060): Gác chung 4 lần
+  -> Cặp (CB049, CB062): Gác chung 5 lần
+  -> Cặp (CB049, CB063): Gác chung 4 lần
+  -> Cặp (CB049, CB066): Gác chung 3 lần
+  -> Cặp (CB049, CB069): Gác chung 4 lần
+  -> Cặp (CB049, CB071): Gác chung 3 lần
+  -> Cặp (CB049, CB073): Gác chung 5 lần
+  -> Cặp (CB051, CB060): Gác chung 5 lần
+  -> Cặp (CB051, CB062): Gác chung 5 lần
+  -> Cặp (CB051, CB063): Gác chung 6 lần
+  -> Cặp (CB051, CB066): Gác chung 6 lần
+  -> Cặp (CB051, CB069): Gác chung 5 lần
+  -> Cặp (CB051, CB071): Gác chung 6 lần
+  -> Cặp (CB051, CB073): Gác chung 4 lần
+  -> Cặp (CB052, CB060): Gác chung 3 lần
+  -> Cặp (CB052, CB062): Gác chung 3 lần
+  -> Cặp (CB052, CB071): Gác chung 4 lần
+  -> Cặp (CB052, CB073): Gác chung 4 lần
+  -> Cặp (CB060, CB062): Gác chung 3 lần
+  -> Cặp (CB060, CB063): Gác chung 3 lần
+  -> Cặp (CB060, CB066): Gác chung 5 lần
+  -> Cặp (CB060, CB069): Gác chung 4 lần
+  -> Cặp (CB060, CB071): Gác chung 5 lần
+  -> Cặp (CB060, CB073): Gác chung 3 lần
+  -> Cặp (CB062, CB063): Gác chung 5 lần
+  -> Cặp (CB062, CB069): Gác chung 3 lần
+  -> Cặp (CB062, CB071): Gác chung 3 lần
+  -> Cặp (CB062, CB073): Gác chung 3 lần
+  -> Cặp (CB063, CB066): Gác chung 5 lần
+  -> Cặp (CB063, CB069): Gác chung 6 lần
+  -> Cặp (CB063, CB071): Gác chung 6 lần
+  -> Cặp (CB063, CB073): Gác chung 3 lần
+  -> Cặp (CB066, CB069): Gác chung 4 lần
+  -> Cặp (CB066, CB071): Gác chung 5 lần
+  -> Cặp (CB066, CB073): Gác chung 3 lần
+  -> Cặp (CB069, CB071): Gác chung 4 lần
+  -> Cặp (CB071, CB073): Gác chung 3 lần
+  -> Cặp (CB014, CB055): Gác chung 4 lần
+  -> Cặp (CB001, CB023): Gác chung 3 lần
+  -> Cặp (CB001, CB038): Gác chung 3 lần
+  -> Cặp (CB001, CB039): Gác chung 4 lần
+  -> Cặp (CB001, CB040): Gác chung 4 lần
+  -> Cặp (CB001, CB043): Gác chung 3 lần
+  -> Cặp (CB001, CB045): Gác chung 3 lần
+  -> Cặp (CB001, CB047): Gác chung 3 lần
+  -> Cặp (CB001, CB054): Gác chung 4 lần
+  -> Cặp (CB001, CB057): Gác chung 4 lần
+  -> Cặp (CB001, CB058): Gác chung 3 lần
+  -> Cặp (CB001, CB070): Gác chung 3 lần
+  -> Cặp (CB002, CB005): Gác chung 4 lần
+  -> Cặp (CB002, CB015): Gác chung 3 lần
+  -> Cặp (CB002, CB025): Gác chung 4 lần
+  -> Cặp (CB002, CB030): Gác chung 3 lần
+  -> Cặp (CB002, CB031): Gác chung 3 lần
+  -> Cặp (CB002, CB036): Gác chung 3 lần
+  -> Cặp (CB002, CB038): Gác chung 3 lần
+  -> Cặp (CB002, CB039): Gác chung 3 lần
+  -> Cặp (CB002, CB040): Gác chung 3 lần
+  -> Cặp (CB002, CB041): Gác chung 3 lần
+  -> Cặp (CB002, CB043): Gác chung 5 lần
+  -> Cặp (CB002, CB047): Gác chung 3 lần
+  -> Cặp (CB002, CB048): Gác chung 5 lần
+  -> Cặp (CB002, CB053): Gác chung 4 lần
+  -> Cặp (CB002, CB054): Gác chung 5 lần
+  -> Cặp (CB002, CB056): Gác chung 5 lần
+  -> Cặp (CB002, CB057): Gác chung 3 lần
+  -> Cặp (CB002, CB058): Gác chung 4 lần
+  -> Cặp (CB002, CB059): Gác chung 3 lần
+  -> Cặp (CB002, CB061): Gác chung 3 lần
+  -> Cặp (CB002, CB064): Gác chung 4 lần
+  -> Cặp (CB002, CB069): Gác chung 4 lần
+  -> Cặp (CB002, CB070): Gác chung 4 lần
+  -> Cặp (CB005, CB023): Gác chung 3 lần
+  -> Cặp (CB005, CB025): Gác chung 3 lần
+  -> Cặp (CB005, CB029): Gác chung 3 lần
+  -> Cặp (CB005, CB036): Gác chung 3 lần
+  -> Cặp (CB005, CB038): Gác chung 4 lần
+  -> Cặp (CB005, CB039): Gác chung 3 lần
+  -> Cặp (CB005, CB040): Gác chung 5 lần
+  -> Cặp (CB005, CB043): Gác chung 6 lần
+  -> Cặp (CB005, CB045): Gác chung 4 lần
+  -> Cặp (CB005, CB047): Gác chung 4 lần
+  -> Cặp (CB005, CB054): Gác chung 8 lần
+  -> Cặp (CB005, CB056): Gác chung 6 lần
+  -> Cặp (CB005, CB057): Gác chung 4 lần
+  -> Cặp (CB005, CB058): Gác chung 4 lần
+  -> Cặp (CB005, CB064): Gác chung 3 lần
+  -> Cặp (CB005, CB070): Gác chung 5 lần
+  -> Cặp (CB012, CB023): Gác chung 5 lần
+  -> Cặp (CB012, CB029): Gác chung 3 lần
+  -> Cặp (CB012, CB054): Gác chung 3 lần
+  -> Cặp (CB012, CB056): Gác chung 3 lần
+  -> Cặp (CB012, CB064): Gác chung 4 lần
+  -> Cặp (CB015, CB023): Gác chung 3 lần
+  -> Cặp (CB015, CB025): Gác chung 6 lần
+  -> Cặp (CB015, CB029): Gác chung 3 lần
+  -> Cặp (CB015, CB036): Gác chung 5 lần
+  -> Cặp (CB015, CB039): Gác chung 7 lần
+  -> Cặp (CB015, CB043): Gác chung 4 lần
+  -> Cặp (CB015, CB045): Gác chung 4 lần
+  -> Cặp (CB015, CB047): Gác chung 3 lần
+  -> Cặp (CB015, CB048): Gác chung 4 lần
+  -> Cặp (CB015, CB053): Gác chung 4 lần
+  -> Cặp (CB015, CB054): Gác chung 5 lần
+  -> Cặp (CB015, CB056): Gác chung 3 lần
+  -> Cặp (CB015, CB057): Gác chung 4 lần
+  -> Cặp (CB015, CB059): Gác chung 4 lần
+  -> Cặp (CB015, CB061): Gác chung 3 lần
+  -> Cặp (CB015, CB070): Gác chung 3 lần
+  -> Cặp (CB023, CB025): Gác chung 3 lần
+  -> Cặp (CB023, CB029): Gác chung 7 lần
+  -> Cặp (CB023, CB030): Gác chung 3 lần
+  -> Cặp (CB023, CB035): Gác chung 4 lần
+  -> Cặp (CB023, CB036): Gác chung 3 lần
+  -> Cặp (CB023, CB039): Gác chung 4 lần
+  -> Cặp (CB023, CB041): Gác chung 3 lần
+  -> Cặp (CB023, CB047): Gác chung 3 lần
+  -> Cặp (CB023, CB048): Gác chung 3 lần
+  -> Cặp (CB023, CB054): Gác chung 3 lần
+  -> Cặp (CB023, CB056): Gác chung 3 lần
+  -> Cặp (CB023, CB057): Gác chung 4 lần
+  -> Cặp (CB023, CB059): Gác chung 4 lần
+  -> Cặp (CB023, CB061): Gác chung 4 lần
+  -> Cặp (CB023, CB064): Gác chung 4 lần
+  -> Cặp (CB023, CB069): Gác chung 4 lần
+  -> Cặp (CB025, CB029): Gác chung 3 lần
+  -> Cặp (CB025, CB036): Gác chung 3 lần
+  -> Cặp (CB025, CB041): Gác chung 3 lần
+  -> Cặp (CB025, CB043): Gác chung 3 lần
+  -> Cặp (CB025, CB054): Gác chung 4 lần
+  -> Cặp (CB025, CB056): Gác chung 4 lần
+  -> Cặp (CB025, CB069): Gác chung 3 lần
+  -> Cặp (CB029, CB030): Gác chung 3 lần
+  -> Cặp (CB029, CB031): Gác chung 4 lần
+  -> Cặp (CB029, CB035): Gác chung 5 lần
+  -> Cặp (CB029, CB036): Gác chung 5 lần
+  -> Cặp (CB029, CB038): Gác chung 3 lần
+  -> Cặp (CB029, CB039): Gác chung 3 lần
+  -> Cặp (CB029, CB040): Gác chung 3 lần
+  -> Cặp (CB029, CB043): Gác chung 3 lần
+  -> Cặp (CB029, CB047): Gác chung 4 lần
+  -> Cặp (CB029, CB048): Gác chung 5 lần
+  -> Cặp (CB029, CB053): Gác chung 3 lần
+  -> Cặp (CB029, CB054): Gác chung 3 lần
+  -> Cặp (CB029, CB056): Gác chung 4 lần
+  -> Cặp (CB029, CB057): Gác chung 3 lần
+  -> Cặp (CB029, CB058): Gác chung 4 lần
+  -> Cặp (CB029, CB059): Gác chung 5 lần
+  -> Cặp (CB029, CB061): Gác chung 4 lần
+  -> Cặp (CB029, CB064): Gác chung 5 lần
+  -> Cặp (CB029, CB069): Gác chung 4 lần
+  -> Cặp (CB029, CB070): Gác chung 3 lần
+  -> Cặp (CB030, CB036): Gác chung 3 lần
+  -> Cặp (CB030, CB043): Gác chung 3 lần
+  -> Cặp (CB030, CB054): Gác chung 3 lần
+  -> Cặp (CB030, CB056): Gác chung 3 lần
+  -> Cặp (CB030, CB064): Gác chung 3 lần
+  -> Cặp (CB031, CB036): Gác chung 4 lần
+  -> Cặp (CB031, CB040): Gác chung 3 lần
+  -> Cặp (CB031, CB043): Gác chung 4 lần
+  -> Cặp (CB031, CB045): Gác chung 3 lần
+  -> Cặp (CB031, CB047): Gác chung 3 lần
+  -> Cặp (CB031, CB048): Gác chung 3 lần
+  -> Cặp (CB031, CB053): Gác chung 4 lần
+  -> Cặp (CB031, CB056): Gác chung 4 lần
+  -> Cặp (CB031, CB057): Gác chung 3 lần
+  -> Cặp (CB031, CB058): Gác chung 7 lần
+  -> Cặp (CB031, CB069): Gác chung 3 lần
+  -> Cặp (CB031, CB070): Gác chung 4 lần
+  -> Cặp (CB035, CB038): Gác chung 4 lần
+  -> Cặp (CB035, CB039): Gác chung 3 lần
+  -> Cặp (CB035, CB040): Gác chung 3 lần
+  -> Cặp (CB035, CB047): Gác chung 4 lần
+  -> Cặp (CB035, CB048): Gác chung 3 lần
+  -> Cặp (CB035, CB057): Gác chung 4 lần
+  -> Cặp (CB035, CB058): Gác chung 3 lần
+  -> Cặp (CB035, CB059): Gác chung 4 lần
+  -> Cặp (CB035, CB061): Gác chung 4 lần
+  -> Cặp (CB035, CB064): Gác chung 4 lần
+  -> Cặp (CB035, CB070): Gác chung 3 lần
+  -> Cặp (CB036, CB038): Gác chung 3 lần
+  -> Cặp (CB036, CB040): Gác chung 3 lần
+  -> Cặp (CB036, CB043): Gác chung 4 lần
+  -> Cặp (CB036, CB045): Gác chung 3 lần
+  -> Cặp (CB036, CB047): Gác chung 3 lần
+  -> Cặp (CB036, CB048): Gác chung 3 lần
+  -> Cặp (CB036, CB053): Gác chung 5 lần
+  -> Cặp (CB036, CB054): Gác chung 3 lần
+  -> Cặp (CB036, CB058): Gác chung 4 lần
+  -> Cặp (CB036, CB064): Gác chung 3 lần
+  -> Cặp (CB036, CB069): Gác chung 4 lần
+  -> Cặp (CB036, CB070): Gác chung 3 lần
+  -> Cặp (CB038, CB040): Gác chung 5 lần
+  -> Cặp (CB038, CB041): Gác chung 4 lần
+  -> Cặp (CB038, CB043): Gác chung 4 lần
+  -> Cặp (CB038, CB054): Gác chung 3 lần
+  -> Cặp (CB038, CB056): Gác chung 3 lần
+  -> Cặp (CB038, CB058): Gác chung 4 lần
+  -> Cặp (CB038, CB064): Gác chung 6 lần
+  -> Cặp (CB038, CB069): Gác chung 5 lần
+  -> Cặp (CB039, CB041): Gác chung 4 lần
+  -> Cặp (CB039, CB054): Gác chung 4 lần
+  -> Cặp (CB039, CB056): Gác chung 3 lần
+  -> Cặp (CB039, CB069): Gác chung 3 lần
+  -> Cặp (CB040, CB041): Gác chung 3 lần
+  -> Cặp (CB040, CB043): Gác chung 3 lần
+  -> Cặp (CB040, CB045): Gác chung 3 lần
+  -> Cặp (CB040, CB047): Gác chung 6 lần
+  -> Cặp (CB040, CB048): Gác chung 4 lần
+  -> Cặp (CB040, CB053): Gác chung 3 lần
+  -> Cặp (CB040, CB054): Gác chung 4 lần
+  -> Cặp (CB040, CB056): Gác chung 4 lần
+  -> Cặp (CB040, CB057): Gác chung 4 lần
+  -> Cặp (CB040, CB058): Gác chung 5 lần
+  -> Cặp (CB040, CB059): Gác chung 3 lần
+  -> Cặp (CB040, CB061): Gác chung 3 lần
+  -> Cặp (CB040, CB064): Gác chung 5 lần
+  -> Cặp (CB040, CB070): Gác chung 5 lần
+  -> Cặp (CB041, CB048): Gác chung 4 lần
+  -> Cặp (CB041, CB054): Gác chung 4 lần
+  -> Cặp (CB041, CB057): Gác chung 6 lần
+  -> Cặp (CB041, CB061): Gác chung 4 lần
+  -> Cặp (CB041, CB070): Gác chung 4 lần
+  -> Cặp (CB043, CB045): Gác chung 4 lần
+  -> Cặp (CB043, CB047): Gác chung 4 lần
+  -> Cặp (CB043, CB053): Gác chung 3 lần
+  -> Cặp (CB043, CB054): Gác chung 6 lần
+  -> Cặp (CB043, CB056): Gác chung 6 lần
+  -> Cặp (CB043, CB057): Gác chung 3 lần
+  -> Cặp (CB043, CB058): Gác chung 5 lần
+  -> Cặp (CB043, CB059): Gác chung 3 lần
+  -> Cặp (CB043, CB064): Gác chung 4 lần
+  -> Cặp (CB043, CB069): Gác chung 4 lần
+  -> Cặp (CB043, CB070): Gác chung 4 lần
+  -> Cặp (CB045, CB054): Gác chung 4 lần
+  -> Cặp (CB045, CB056): Gác chung 4 lần
+  -> Cặp (CB045, CB058): Gác chung 4 lần
+  -> Cặp (CB045, CB064): Gác chung 3 lần
+  -> Cặp (CB045, CB069): Gác chung 4 lần
+  -> Cặp (CB047, CB054): Gác chung 3 lần
+  -> Cặp (CB047, CB056): Gác chung 4 lần
+  -> Cặp (CB047, CB058): Gác chung 4 lần
+  -> Cặp (CB047, CB064): Gác chung 7 lần
+  -> Cặp (CB047, CB069): Gác chung 3 lần
+  -> Cặp (CB048, CB054): Gác chung 3 lần
+  -> Cặp (CB048, CB056): Gác chung 5 lần
+  -> Cặp (CB048, CB058): Gác chung 3 lần
+  -> Cặp (CB048, CB064): Gác chung 4 lần
+  -> Cặp (CB048, CB069): Gác chung 3 lần
+  -> Cặp (CB053, CB054): Gác chung 3 lần
+  -> Cặp (CB053, CB056): Gác chung 4 lần
+  -> Cặp (CB053, CB058): Gác chung 5 lần
+  -> Cặp (CB053, CB064): Gác chung 4 lần
+  -> Cặp (CB053, CB069): Gác chung 4 lần
+  -> Cặp (CB054, CB056): Gác chung 6 lần
+  -> Cặp (CB054, CB057): Gác chung 3 lần
+  -> Cặp (CB054, CB058): Gác chung 3 lần
+  -> Cặp (CB054, CB059): Gác chung 3 lần
+  -> Cặp (CB054, CB064): Gác chung 3 lần
+  -> Cặp (CB054, CB069): Gác chung 3 lần
+  -> Cặp (CB054, CB070): Gác chung 4 lần
+  -> Cặp (CB056, CB057): Gác chung 3 lần
+  -> Cặp (CB056, CB058): Gác chung 5 lần
+  -> Cặp (CB056, CB059): Gác chung 5 lần
+  -> Cặp (CB056, CB061): Gác chung 3 lần
+  -> Cặp (CB056, CB064): Gác chung 4 lần
+  -> Cặp (CB056, CB069): Gác chung 3 lần
+  -> Cặp (CB056, CB070): Gác chung 5 lần
+  -> Cặp (CB057, CB058): Gác chung 3 lần
+  -> Cặp (CB057, CB064): Gác chung 3 lần
+  -> Cặp (CB057, CB069): Gác chung 3 lần
+  -> Cặp (CB058, CB059): Gác chung 3 lần
+  -> Cặp (CB058, CB061): Gác chung 3 lần
+  -> Cặp (CB058, CB064): Gác chung 3 lần
+  -> Cặp (CB058, CB069): Gác chung 4 lần
+  -> Cặp (CB058, CB070): Gác chung 5 lần
+  -> Cặp (CB059, CB064): Gác chung 5 lần
+  -> Cặp (CB059, CB069): Gác chung 5 lần
+  -> Cặp (CB061, CB064): Gác chung 4 lần
+  -> Cặp (CB061, CB069): Gác chung 3 lần
+  -> Cặp (CB064, CB069): Gác chung 4 lần
+  -> Cặp (CB064, CB070): Gác chung 4 lần
+  -> Cặp (CB011, CB065): Gác chung 3 lần
+  -> Cặp (CB062, CB065): Gác chung 4 lần
+  -> Cặp (CB001, CB009): Gác chung 3 lần
+  -> Cặp (CB001, CB018): Gác chung 3 lần
+  -> Cặp (CB001, CB021): Gác chung 4 lần
+  -> Cặp (CB001, CB026): Gác chung 3 lần
+  -> Cặp (CB001, CB027): Gác chung 5 lần
+  -> Cặp (CB001, CB028): Gác chung 5 lần
+  -> Cặp (CB001, CB033): Gác chung 3 lần
+  -> Cặp (CB001, CB042): Gác chung 3 lần
+  -> Cặp (CB001, CB050): Gác chung 4 lần
+  -> Cặp (CB001, CB072): Gác chung 3 lần
+  -> Cặp (CB002, CB006): Gác chung 4 lần
+  -> Cặp (CB002, CB007): Gác chung 6 lần
+  -> Cặp (CB002, CB009): Gác chung 3 lần
+  -> Cặp (CB002, CB010): Gác chung 5 lần
+  -> Cặp (CB002, CB013): Gác chung 3 lần
+  -> Cặp (CB002, CB016): Gác chung 3 lần
+  -> Cặp (CB002, CB017): Gác chung 3 lần
+  -> Cặp (CB002, CB018): Gác chung 3 lần
+  -> Cặp (CB002, CB019): Gác chung 3 lần
+  -> Cặp (CB002, CB021): Gác chung 3 lần
+  -> Cặp (CB002, CB026): Gác chung 4 lần
+  -> Cặp (CB002, CB027): Gác chung 3 lần
+  -> Cặp (CB002, CB028): Gác chung 3 lần
+  -> Cặp (CB002, CB033): Gác chung 4 lần
+  -> Cặp (CB002, CB050): Gác chung 3 lần
+  -> Cặp (CB002, CB051): Gác chung 5 lần
+  -> Cặp (CB002, CB055): Gác chung 4 lần
+  -> Cặp (CB002, CB066): Gác chung 3 lần
+  -> Cặp (CB002, CB067): Gác chung 3 lần
+  -> Cặp (CB002, CB071): Gác chung 4 lần
+  -> Cặp (CB002, CB072): Gác chung 3 lần
+  -> Cặp (CB006, CB010): Gác chung 3 lần
+  -> Cặp (CB006, CB018): Gác chung 3 lần
+  -> Cặp (CB006, CB021): Gác chung 5 lần
+  -> Cặp (CB006, CB026): Gác chung 3 lần
+  -> Cặp (CB006, CB027): Gác chung 3 lần
+  -> Cặp (CB006, CB028): Gác chung 5 lần
+  -> Cặp (CB006, CB033): Gác chung 4 lần
+  -> Cặp (CB006, CB042): Gác chung 4 lần
+  -> Cặp (CB006, CB058): Gác chung 3 lần
+  -> Cặp (CB006, CB072): Gác chung 5 lần
+  -> Cặp (CB007, CB009): Gác chung 4 lần
+  -> Cặp (CB007, CB010): Gác chung 3 lần
+  -> Cặp (CB007, CB018): Gác chung 4 lần
+  -> Cặp (CB007, CB021): Gác chung 4 lần
+  -> Cặp (CB007, CB026): Gác chung 5 lần
+  -> Cặp (CB007, CB027): Gác chung 3 lần
+  -> Cặp (CB007, CB028): Gác chung 5 lần
+  -> Cặp (CB007, CB031): Gác chung 4 lần
+  -> Cặp (CB007, CB033): Gác chung 6 lần
+  -> Cặp (CB007, CB042): Gác chung 3 lần
+  -> Cặp (CB007, CB043): Gác chung 3 lần
+  -> Cặp (CB007, CB050): Gác chung 5 lần
+  -> Cặp (CB007, CB055): Gác chung 5 lần
+  -> Cặp (CB007, CB058): Gác chung 6 lần
+  -> Cặp (CB007, CB067): Gác chung 4 lần
+  -> Cặp (CB007, CB072): Gác chung 3 lần
+  -> Cặp (CB009, CB016): Gác chung 3 lần
+  -> Cặp (CB009, CB017): Gác chung 3 lần
+  -> Cặp (CB009, CB019): Gác chung 4 lần
+  -> Cặp (CB009, CB021): Gác chung 3 lần
+  -> Cặp (CB009, CB033): Gác chung 4 lần
+  -> Cặp (CB009, CB043): Gác chung 4 lần
+  -> Cặp (CB009, CB051): Gác chung 4 lần
+  -> Cặp (CB009, CB066): Gác chung 3 lần
+  -> Cặp (CB009, CB071): Gác chung 3 lần
+  -> Cặp (CB009, CB073): Gác chung 3 lần
+  -> Cặp (CB010, CB016): Gác chung 5 lần
+  -> Cặp (CB010, CB017): Gác chung 3 lần
+  -> Cặp (CB010, CB018): Gác chung 6 lần
+  -> Cặp (CB010, CB021): Gác chung 3 lần
+  -> Cặp (CB010, CB031): Gác chung 4 lần
+  -> Cặp (CB010, CB033): Gác chung 3 lần
+  -> Cặp (CB010, CB043): Gác chung 4 lần
+  -> Cặp (CB010, CB051): Gác chung 5 lần
+  -> Cặp (CB010, CB058): Gác chung 3 lần
+  -> Cặp (CB010, CB063): Gác chung 4 lần
+  -> Cặp (CB010, CB066): Gác chung 4 lần
+  -> Cặp (CB010, CB071): Gác chung 5 lần
+  -> Cặp (CB010, CB073): Gác chung 3 lần
+  -> Cặp (CB013, CB021): Gác chung 3 lần
+  -> Cặp (CB016, CB018): Gác chung 3 lần
+  -> Cặp (CB016, CB021): Gác chung 3 lần
+  -> Cặp (CB016, CB026): Gác chung 4 lần
+  -> Cặp (CB016, CB027): Gác chung 5 lần
+  -> Cặp (CB016, CB028): Gác chung 4 lần
+  -> Cặp (CB016, CB031): Gác chung 3 lần
+  -> Cặp (CB016, CB033): Gác chung 4 lần
+  -> Cặp (CB016, CB042): Gác chung 3 lần
+  -> Cặp (CB016, CB055): Gác chung 3 lần
+  -> Cặp (CB016, CB072): Gác chung 3 lần
+  -> Cặp (CB017, CB018): Gác chung 4 lần
+  -> Cặp (CB017, CB021): Gác chung 6 lần
+  -> Cặp (CB017, CB026): Gác chung 4 lần
+  -> Cặp (CB017, CB027): Gác chung 6 lần
+  -> Cặp (CB017, CB028): Gác chung 4 lần
+  -> Cặp (CB017, CB033): Gác chung 6 lần
+  -> Cặp (CB017, CB042): Gác chung 4 lần
+  -> Cặp (CB017, CB043): Gác chung 3 lần
+  -> Cặp (CB017, CB050): Gác chung 5 lần
+  -> Cặp (CB017, CB055): Gác chung 5 lần
+  -> Cặp (CB017, CB058): Gác chung 3 lần
+  -> Cặp (CB017, CB067): Gác chung 3 lần
+  -> Cặp (CB017, CB072): Gác chung 4 lần
+  -> Cặp (CB018, CB019): Gác chung 3 lần
+  -> Cặp (CB018, CB021): Gác chung 6 lần
+  -> Cặp (CB018, CB026): Gác chung 7 lần
+  -> Cặp (CB018, CB027): Gác chung 4 lần
+  -> Cặp (CB018, CB028): Gác chung 4 lần
+  -> Cặp (CB018, CB031): Gác chung 5 lần
+  -> Cặp (CB018, CB033): Gác chung 5 lần
+  -> Cặp (CB018, CB042): Gác chung 4 lần
+  -> Cặp (CB018, CB043): Gác chung 6 lần
+  -> Cặp (CB018, CB050): Gác chung 4 lần
+  -> Cặp (CB018, CB051): Gác chung 6 lần
+  -> Cặp (CB018, CB055): Gác chung 5 lần
+  -> Cặp (CB018, CB058): Gác chung 6 lần
+  -> Cặp (CB018, CB063): Gác chung 6 lần
+  -> Cặp (CB018, CB066): Gác chung 5 lần
+  -> Cặp (CB018, CB067): Gác chung 5 lần
+  -> Cặp (CB018, CB071): Gác chung 5 lần
+  -> Cặp (CB018, CB072): Gác chung 3 lần
+  -> Cặp (CB018, CB073): Gác chung 3 lần
+  -> Cặp (CB019, CB021): Gác chung 3 lần
+  -> Cặp (CB019, CB026): Gác chung 4 lần
+  -> Cặp (CB019, CB027): Gác chung 3 lần
+  -> Cặp (CB019, CB028): Gác chung 4 lần
+  -> Cặp (CB019, CB031): Gác chung 3 lần
+  -> Cặp (CB019, CB033): Gác chung 5 lần
+  -> Cặp (CB019, CB042): Gác chung 5 lần
+  -> Cặp (CB019, CB050): Gác chung 4 lần
+  -> Cặp (CB019, CB055): Gác chung 4 lần
+  -> Cặp (CB019, CB058): Gác chung 5 lần
+  -> Cặp (CB019, CB067): Gác chung 3 lần
+  -> Cặp (CB019, CB072): Gác chung 3 lần
+  -> Cặp (CB021, CB026): Gác chung 4 lần
+  -> Cặp (CB021, CB027): Gác chung 6 lần
+  -> Cặp (CB021, CB028): Gác chung 6 lần
+  -> Cặp (CB021, CB033): Gác chung 6 lần
+  -> Cặp (CB021, CB042): Gác chung 4 lần
+  -> Cặp (CB021, CB043): Gác chung 4 lần
+  -> Cặp (CB021, CB050): Gác chung 3 lần
+  -> Cặp (CB021, CB051): Gác chung 5 lần
+  -> Cặp (CB021, CB055): Gác chung 3 lần
+  -> Cặp (CB021, CB058): Gác chung 3 lần
+  -> Cặp (CB021, CB063): Gác chung 4 lần
+  -> Cặp (CB021, CB066): Gác chung 4 lần
+  -> Cặp (CB021, CB071): Gác chung 5 lần
+  -> Cặp (CB021, CB072): Gác chung 3 lần
+  -> Cặp (CB026, CB031): Gác chung 4 lần
+  -> Cặp (CB026, CB033): Gác chung 6 lần
+  -> Cặp (CB026, CB043): Gác chung 5 lần
+  -> Cặp (CB026, CB050): Gác chung 4 lần
+  -> Cặp (CB026, CB051): Gác chung 6 lần
+  -> Cặp (CB026, CB058): Gác chung 5 lần
+  -> Cặp (CB026, CB063): Gác chung 5 lần
+  -> Cặp (CB026, CB066): Gác chung 6 lần
+  -> Cặp (CB026, CB071): Gác chung 5 lần
+  -> Cặp (CB027, CB033): Gác chung 5 lần
+  -> Cặp (CB027, CB043): Gác chung 4 lần
+  -> Cặp (CB027, CB050): Gác chung 3 lần
+  -> Cặp (CB027, CB051): Gác chung 5 lần
+  -> Cặp (CB027, CB063): Gác chung 4 lần
+  -> Cặp (CB027, CB066): Gác chung 3 lần
+  -> Cặp (CB027, CB071): Gác chung 6 lần
+  -> Cặp (CB028, CB033): Gác chung 5 lần
+  -> Cặp (CB028, CB050): Gác chung 3 lần
+  -> Cặp (CB028, CB051): Gác chung 5 lần
+  -> Cặp (CB028, CB058): Gác chung 3 lần
+  -> Cặp (CB028, CB063): Gác chung 4 lần
+  -> Cặp (CB028, CB066): Gác chung 4 lần
+  -> Cặp (CB028, CB071): Gác chung 3 lần
+  -> Cặp (CB028, CB073): Gác chung 3 lần
+  -> Cặp (CB031, CB033): Gác chung 3 lần
+  -> Cặp (CB031, CB050): Gác chung 4 lần
+  -> Cặp (CB031, CB051): Gác chung 3 lần
+  -> Cặp (CB031, CB055): Gác chung 4 lần
+  -> Cặp (CB031, CB063): Gác chung 6 lần
+  -> Cặp (CB031, CB066): Gác chung 4 lần
+  -> Cặp (CB031, CB067): Gác chung 3 lần
+  -> Cặp (CB031, CB071): Gác chung 3 lần
+  -> Cặp (CB031, CB073): Gác chung 3 lần
+  -> Cặp (CB032, CB043): Gác chung 4 lần
+  -> Cặp (CB032, CB050): Gác chung 5 lần
+  -> Cặp (CB032, CB058): Gác chung 3 lần
+  -> Cặp (CB033, CB042): Gác chung 3 lần
+  -> Cặp (CB033, CB043): Gác chung 4 lần
+  -> Cặp (CB033, CB050): Gác chung 3 lần
+  -> Cặp (CB033, CB051): Gác chung 6 lần
+  -> Cặp (CB033, CB055): Gác chung 5 lần
+  -> Cặp (CB033, CB058): Gác chung 4 lần
+  -> Cặp (CB033, CB063): Gác chung 5 lần
+  -> Cặp (CB033, CB066): Gác chung 5 lần
+  -> Cặp (CB033, CB067): Gác chung 3 lần
+  -> Cặp (CB033, CB071): Gác chung 5 lần
+  -> Cặp (CB042, CB043): Gác chung 3 lần
+  -> Cặp (CB042, CB050): Gác chung 3 lần
+  -> Cặp (CB042, CB058): Gác chung 3 lần
+  -> Cặp (CB042, CB063): Gác chung 3 lần
+  -> Cặp (CB042, CB071): Gác chung 3 lần
+  -> Cặp (CB042, CB073): Gác chung 5 lần
+  -> Cặp (CB043, CB050): Gác chung 5 lần
+  -> Cặp (CB043, CB051): Gác chung 6 lần
+  -> Cặp (CB043, CB055): Gác chung 6 lần
+  -> Cặp (CB043, CB063): Gác chung 4 lần
+  -> Cặp (CB043, CB066): Gác chung 3 lần
+  -> Cặp (CB043, CB067): Gác chung 5 lần
+  -> Cặp (CB043, CB071): Gác chung 6 lần
+  -> Cặp (CB043, CB073): Gác chung 3 lần
+  -> Cặp (CB050, CB051): Gác chung 3 lần
+  -> Cặp (CB050, CB055): Gác chung 5 lần
+  -> Cặp (CB050, CB058): Gác chung 6 lần
+  -> Cặp (CB050, CB063): Gác chung 6 lần
+  -> Cặp (CB050, CB066): Gác chung 4 lần
+  -> Cặp (CB050, CB067): Gác chung 7 lần
+  -> Cặp (CB050, CB071): Gác chung 6 lần
+  -> Cặp (CB050, CB072): Gác chung 3 lần
+  -> Cặp (CB051, CB055): Gác chung 6 lần
+  -> Cặp (CB051, CB058): Gác chung 4 lần
+  -> Cặp (CB051, CB067): Gác chung 3 lần
+  -> Cặp (CB051, CB072): Gác chung 3 lần
+  -> Cặp (CB055, CB058): Gác chung 5 lần
+  -> Cặp (CB055, CB063): Gác chung 6 lần
+  -> Cặp (CB055, CB066): Gác chung 4 lần
+  -> Cặp (CB055, CB071): Gác chung 5 lần
+  -> Cặp (CB058, CB063): Gác chung 6 lần
+  -> Cặp (CB058, CB066): Gác chung 5 lần
+  -> Cặp (CB058, CB067): Gác chung 5 lần
+  -> Cặp (CB058, CB071): Gác chung 4 lần
+  -> Cặp (CB058, CB072): Gác chung 3 lần
+  -> Cặp (CB058, CB073): Gác chung 3 lần
+  -> Cặp (CB063, CB067): Gác chung 5 lần
+  -> Cặp (CB063, CB072): Gác chung 3 lần
+  -> Cặp (CB066, CB067): Gác chung 4 lần
+  -> Cặp (CB067, CB071): Gác chung 6 lần
+  -> Cặp (CB067, CB073): Gác chung 3 lần
+  -> Cặp (CB072, CB073): Gác chung 5 lần
+  -> Cặp (CB037, CB044): Gác chung 4 lần
+  -> Cặp (CB020, CB029): Gác chung 7 lần
+  -> Cặp (CB020, CB034): Gác chung 6 lần
+  -> Cặp (CB029, CB034): Gác chung 7 lần
+  -> Cặp (CB029, CB068): Gác chung 4 lần
+  -> Cặp (CB034, CB068): Gác chung 6 lần
+  -> Cặp (CB008, CB049): Gác chung 4 lần
+  -> Cặp (CB049, CB065): Gác chung 5 lần
+  -> Cặp (CB003, CB018): Gác chung 5 lần
+  -> Cặp (CB003, CB022): Gác chung 3 lần
+  -> Cặp (CB003, CB031): Gác chung 5 lần
+  -> Cặp (CB003, CB043): Gác chung 3 lần
+  -> Cặp (CB003, CB050): Gác chung 5 lần
+  -> Cặp (CB003, CB056): Gác chung 4 lần
+  -> Cặp (CB003, CB058): Gác chung 7 lần
+  -> Cặp (CB003, CB063): Gác chung 5 lần
+  -> Cặp (CB018, CB022): Gác chung 5 lần
+  -> Cặp (CB018, CB056): Gác chung 5 lần
+  -> Cặp (CB018, CB057): Gác chung 3 lần
+  -> Cặp (CB018, CB062): Gác chung 5 lần
+  -> Cặp (CB018, CB068): Gác chung 4 lần
+  -> Cặp (CB022, CB026): Gác chung 4 lần
+  -> Cặp (CB022, CB031): Gác chung 3 lần
+  -> Cặp (CB022, CB043): Gác chung 4 lần
+  -> Cặp (CB022, CB055): Gác chung 4 lần
+  -> Cặp (CB022, CB056): Gác chung 3 lần
+  -> Cặp (CB022, CB058): Gác chung 3 lần
+  -> Cặp (CB022, CB068): Gác chung 3 lần
+  -> Cặp (CB026, CB056): Gác chung 4 lần
+  -> Cặp (CB026, CB062): Gác chung 4 lần
+  -> Cặp (CB043, CB062): Gác chung 4 lần
+  -> Cặp (CB043, CB068): Gác chung 4 lần
+  -> Cặp (CB050, CB056): Gác chung 3 lần
+  -> Cặp (CB050, CB057): Gác chung 4 lần
+  -> Cặp (CB050, CB061): Gác chung 3 lần
+  -> Cặp (CB050, CB068): Gác chung 4 lần
+  -> Cặp (CB055, CB056): Gác chung 4 lần
+  -> Cặp (CB055, CB062): Gác chung 3 lần
+  -> Cặp (CB056, CB062): Gác chung 4 lần
+  -> Cặp (CB056, CB063): Gác chung 3 lần
+  -> Cặp (CB056, CB067): Gác chung 3 lần
+  -> Cặp (CB056, CB068): Gác chung 4 lần
+  -> Cặp (CB057, CB062): Gác chung 3 lần
+  -> Cặp (CB057, CB063): Gác chung 4 lần
+  -> Cặp (CB058, CB068): Gác chung 4 lần
+  -> Cặp (CB061, CB063): Gác chung 4 lần
+  -> Cặp (CB033, CB046): Gác chung 6 lần
+  -> Cặp (CB046, CB066): Gác chung 4 lần
+  -> Cặp (CB002, CB003): Gác chung 4 lần
+  -> Cặp (CB002, CB008): Gác chung 3 lần
+  -> Cặp (CB002, CB020): Gác chung 3 lần
+  -> Cặp (CB002, CB060): Gác chung 4 lần
+  -> Cặp (CB003, CB005): Gác chung 3 lần
+  -> Cặp (CB003, CB007): Gác chung 7 lần
+  -> Cặp (CB003, CB014): Gác chung 5 lần
+  -> Cặp (CB003, CB029): Gác chung 3 lần
+  -> Cặp (CB003, CB034): Gác chung 4 lần
+  -> Cặp (CB003, CB036): Gác chung 4 lần
+  -> Cặp (CB003, CB051): Gác chung 3 lần
+  -> Cặp (CB003, CB060): Gác chung 4 lần
+  -> Cặp (CB003, CB066): Gác chung 4 lần
+  -> Cặp (CB003, CB069): Gác chung 3 lần
+  -> Cặp (CB003, CB071): Gác chung 3 lần
+  -> Cặp (CB004, CB005): Gác chung 5 lần
+  -> Cặp (CB004, CB018): Gác chung 5 lần
+  -> Cặp (CB004, CB023): Gác chung 5 lần
+  -> Cặp (CB004, CB029): Gác chung 3 lần
+  -> Cặp (CB004, CB043): Gác chung 3 lần
+  -> Cặp (CB004, CB050): Gác chung 4 lần
+  -> Cặp (CB004, CB051): Gác chung 3 lần
+  -> Cặp (CB004, CB054): Gác chung 4 lần
+  -> Cặp (CB004, CB056): Gác chung 3 lần
+  -> Cặp (CB004, CB060): Gác chung 4 lần
+  -> Cặp (CB004, CB063): Gác chung 3 lần
+  -> Cặp (CB004, CB071): Gác chung 4 lần
+  -> Cặp (CB005, CB008): Gác chung 4 lần
+  -> Cặp (CB005, CB018): Gác chung 4 lần
+  -> Cặp (CB005, CB020): Gác chung 4 lần
+  -> Cặp (CB005, CB024): Gác chung 3 lần
+  -> Cặp (CB005, CB050): Gác chung 5 lần
+  -> Cặp (CB005, CB055): Gác chung 3 lần
+  -> Cặp (CB005, CB067): Gác chung 5 lần
+  -> Cặp (CB007, CB020): Gác chung 4 lần
+  -> Cặp (CB007, CB029): Gác chung 3 lần
+  -> Cặp (CB007, CB034): Gác chung 3 lần
+  -> Cặp (CB007, CB036): Gác chung 3 lần
+  -> Cặp (CB007, CB056): Gác chung 3 lần
+  -> Cặp (CB007, CB065): Gác chung 3 lần
+  -> Cặp (CB008, CB014): Gác chung 3 lần
+  -> Cặp (CB008, CB018): Gác chung 5 lần
+  -> Cặp (CB008, CB022): Gác chung 3 lần
+  -> Cặp (CB008, CB029): Gác chung 4 lần
+  -> Cặp (CB008, CB031): Gác chung 3 lần
+  -> Cặp (CB008, CB034): Gác chung 4 lần
+  -> Cặp (CB008, CB036): Gác chung 3 lần
+  -> Cặp (CB008, CB043): Gác chung 4 lần
+  -> Cặp (CB008, CB051): Gác chung 4 lần
+  -> Cặp (CB008, CB054): Gác chung 4 lần
+  -> Cặp (CB008, CB056): Gác chung 4 lần
+  -> Cặp (CB008, CB058): Gác chung 3 lần
+  -> Cặp (CB008, CB060): Gác chung 3 lần
+  -> Cặp (CB008, CB066): Gác chung 3 lần
+  -> Cặp (CB008, CB071): Gác chung 3 lần
+  -> Cặp (CB010, CB022): Gác chung 3 lần
+  -> Cặp (CB010, CB029): Gác chung 3 lần
+  -> Cặp (CB010, CB036): Gác chung 3 lần
+  -> Cặp (CB010, CB054): Gác chung 3 lần
+  -> Cặp (CB010, CB056): Gác chung 3 lần
+  -> Cặp (CB010, CB060): Gác chung 5 lần
+  -> Cặp (CB014, CB018): Gác chung 3 lần
+  -> Cặp (CB014, CB020): Gác chung 3 lần
+  -> Cặp (CB014, CB025): Gác chung 3 lần
+  -> Cặp (CB014, CB029): Gác chung 4 lần
+  -> Cặp (CB014, CB031): Gác chung 4 lần
+  -> Cặp (CB014, CB034): Gác chung 4 lần
+  -> Cặp (CB014, CB036): Gác chung 4 lần
+  -> Cặp (CB014, CB058): Gác chung 4 lần
+  -> Cặp (CB014, CB065): Gác chung 3 lần
+  -> Cặp (CB018, CB020): Gác chung 5 lần
+  -> Cặp (CB018, CB024): Gác chung 4 lần
+  -> Cặp (CB018, CB029): Gác chung 4 lần
+  -> Cặp (CB018, CB034): Gác chung 3 lần
+  -> Cặp (CB018, CB036): Gác chung 3 lần
+  -> Cặp (CB018, CB054): Gác chung 4 lần
+  -> Cặp (CB018, CB060): Gác chung 5 lần
+  -> Cặp (CB018, CB065): Gác chung 3 lần
+  -> Cặp (CB020, CB022): Gác chung 3 lần
+  -> Cặp (CB020, CB031): Gác chung 3 lần
+  -> Cặp (CB020, CB036): Gác chung 3 lần
+  -> Cặp (CB020, CB043): Gác chung 3 lần
+  -> Cặp (CB020, CB051): Gác chung 3 lần
+  -> Cặp (CB020, CB054): Gác chung 3 lần
+  -> Cặp (CB020, CB056): Gác chung 4 lần
+  -> Cặp (CB020, CB058): Gác chung 4 lần
+  -> Cặp (CB020, CB060): Gác chung 3 lần
+  -> Cặp (CB020, CB063): Gác chung 3 lần
+  -> Cặp (CB020, CB066): Gác chung 4 lần
+  -> Cặp (CB020, CB071): Gác chung 4 lần
+  -> Cặp (CB022, CB029): Gác chung 3 lần
+  -> Cặp (CB022, CB036): Gác chung 3 lần
+  -> Cặp (CB022, CB065): Gác chung 3 lần
+  -> Cặp (CB023, CB024): Gác chung 3 lần
+  -> Cặp (CB023, CB034): Gác chung 4 lần
+  -> Cặp (CB023, CB050): Gác chung 3 lần
+  -> Cặp (CB023, CB060): Gác chung 3 lần
+  -> Cặp (CB023, CB063): Gác chung 3 lần
+  -> Cặp (CB023, CB065): Gác chung 4 lần
+  -> Cặp (CB023, CB066): Gác chung 5 lần
+  -> Cặp (CB023, CB067): Gác chung 4 lần
+  -> Cặp (CB024, CB029): Gác chung 4 lần
+  -> Cặp (CB024, CB034): Gác chung 3 lần
+  -> Cặp (CB024, CB036): Gác chung 3 lần
+  -> Cặp (CB024, CB043): Gác chung 3 lần
+  -> Cặp (CB024, CB050): Gác chung 3 lần
+  -> Cặp (CB024, CB060): Gác chung 3 lần
+  -> Cặp (CB024, CB063): Gác chung 4 lần
+  -> Cặp (CB024, CB069): Gác chung 4 lần
+  -> Cặp (CB024, CB071): Gác chung 4 lần
+  -> Cặp (CB025, CB034): Gác chung 3 lần
+  -> Cặp (CB025, CB051): Gác chung 3 lần
+  -> Cặp (CB029, CB051): Gác chung 3 lần
+  -> Cặp (CB029, CB060): Gác chung 3 lần
+  -> Cặp (CB029, CB063): Gác chung 4 lần
+  -> Cặp (CB029, CB065): Gác chung 5 lần
+  -> Cặp (CB029, CB066): Gác chung 6 lần
+  -> Cặp (CB029, CB067): Gác chung 4 lần
+  -> Cặp (CB031, CB034): Gác chung 3 lần
+  -> Cặp (CB034, CB036): Gác chung 4 lần
+  -> Cặp (CB034, CB056): Gác chung 3 lần
+  -> Cặp (CB034, CB058): Gác chung 3 lần
+  -> Cặp (CB034, CB063): Gác chung 3 lần
+  -> Cặp (CB034, CB065): Gác chung 4 lần
+  -> Cặp (CB034, CB066): Gác chung 5 lần
+  -> Cặp (CB036, CB055): Gác chung 3 lần
+  -> Cặp (CB036, CB060): Gác chung 4 lần
+  -> Cặp (CB036, CB063): Gác chung 3 lần
+  -> Cặp (CB036, CB071): Gác chung 3 lần
+  -> Cặp (CB043, CB060): Gác chung 4 lần
+  -> Cặp (CB050, CB054): Gác chung 4 lần
+  -> Cặp (CB050, CB060): Gác chung 3 lần
+  -> Cặp (CB050, CB069): Gác chung 4 lần
+  -> Cặp (CB051, CB054): Gác chung 5 lần
+  -> Cặp (CB051, CB056): Gác chung 6 lần
+  -> Cặp (CB051, CB065): Gác chung 5 lần
+  -> Cặp (CB054, CB055): Gác chung 3 lần
+  -> Cặp (CB054, CB060): Gác chung 4 lần
+  -> Cặp (CB054, CB065): Gác chung 3 lần
+  -> Cặp (CB054, CB066): Gác chung 3 lần
+  -> Cặp (CB054, CB067): Gác chung 4 lần
+  -> Cặp (CB054, CB071): Gác chung 6 lần
+  -> Cặp (CB055, CB060): Gác chung 3 lần
+  -> Cặp (CB055, CB069): Gác chung 5 lần
+  -> Cặp (CB056, CB060): Gác chung 3 lần
+  -> Cặp (CB056, CB065): Gác chung 5 lần
+  -> Cặp (CB056, CB066): Gác chung 4 lần
+  -> Cặp (CB056, CB071): Gác chung 3 lần
+  -> Cặp (CB058, CB060): Gác chung 3 lần
+  -> Cặp (CB060, CB067): Gác chung 4 lần
+  -> Cặp (CB063, CB065): Gác chung 4 lần
+  -> Cặp (CB065, CB066): Gác chung 4 lần
+  -> Cặp (CB065, CB069): Gác chung 3 lần
+  -> Cặp (CB067, CB069): Gác chung 3 lần
+  -> Cặp (CB003, CB017): Gác chung 3 lần
+  -> Cặp (CB003, CB019): Gác chung 5 lần
+  -> Cặp (CB003, CB021): Gác chung 3 lần
+  -> Cặp (CB003, CB033): Gác chung 4 lần
+  -> Cặp (CB003, CB044): Gác chung 3 lần
+  -> Cặp (CB003, CB052): Gác chung 3 lần
+  -> Cặp (CB006, CB025): Gác chung 3 lần
+  -> Cặp (CB006, CB034): Gác chung 4 lần
+  -> Cặp (CB006, CB039): Gác chung 3 lần
+  -> Cặp (CB006, CB044): Gác chung 4 lần
+  -> Cặp (CB006, CB048): Gác chung 6 lần
+  -> Cặp (CB006, CB053): Gác chung 3 lần
+  -> Cặp (CB006, CB057): Gác chung 3 lần
+  -> Cặp (CB006, CB061): Gác chung 3 lần
+  -> Cặp (CB006, CB070): Gác chung 3 lần
+  -> Cặp (CB007, CB044): Gác chung 4 lần
+  -> Cặp (CB007, CB053): Gác chung 4 lần
+  -> Cặp (CB007, CB057): Gác chung 3 lần
+  -> Cặp (CB007, CB061): Gác chung 4 lần
+  -> Cặp (CB007, CB068): Gác chung 3 lần
+  -> Cặp (CB007, CB070): Gác chung 4 lần
+  -> Cặp (CB009, CB015): Gác chung 3 lần
+  -> Cặp (CB011, CB021): Gác chung 4 lần
+  -> Cặp (CB011, CB027): Gác chung 5 lần
+  -> Cặp (CB011, CB028): Gác chung 4 lần
+  -> Cặp (CB011, CB033): Gác chung 5 lần
+  -> Cặp (CB011, CB039): Gác chung 3 lần
+  -> Cặp (CB011, CB044): Gác chung 3 lần
+  -> Cặp (CB011, CB048): Gác chung 3 lần
+  -> Cặp (CB011, CB053): Gác chung 3 lần
+  -> Cặp (CB011, CB057): Gác chung 4 lần
+  -> Cặp (CB011, CB070): Gác chung 3 lần
+  -> Cặp (CB013, CB034): Gác chung 4 lần
+  -> Cặp (CB014, CB028): Gác chung 3 lần
+  -> Cặp (CB014, CB033): Gác chung 3 lần
+  -> Cặp (CB014, CB039): Gác chung 3 lần
+  -> Cặp (CB014, CB048): Gác chung 3 lần
+  -> Cặp (CB014, CB053): Gác chung 4 lần
+  -> Cặp (CB014, CB070): Gác chung 3 lần
+  -> Cặp (CB015, CB021): Gác chung 3 lần
+  -> Cặp (CB015, CB027): Gác chung 4 lần
+  -> Cặp (CB015, CB028): Gác chung 4 lần
+  -> Cặp (CB015, CB034): Gác chung 3 lần
+  -> Cặp (CB015, CB042): Gác chung 4 lần
+  -> Cặp (CB015, CB044): Gác chung 4 lần
+  -> Cặp (CB015, CB068): Gác chung 3 lần
+  -> Cặp (CB015, CB072): Gác chung 5 lần
+  -> Cặp (CB016, CB036): Gác chung 3 lần
+  -> Cặp (CB016, CB039): Gác chung 3 lần
+  -> Cặp (CB016, CB048): Gác chung 3 lần
+  -> Cặp (CB016, CB053): Gác chung 4 lần
+  -> Cặp (CB016, CB070): Gác chung 3 lần
+  -> Cặp (CB017, CB036): Gác chung 3 lần
+  -> Cặp (CB017, CB039): Gác chung 3 lần
+  -> Cặp (CB017, CB044): Gác chung 4 lần
+  -> Cặp (CB017, CB048): Gác chung 3 lần
+  -> Cặp (CB017, CB053): Gác chung 3 lần
+  -> Cặp (CB017, CB057): Gác chung 5 lần
+  -> Cặp (CB017, CB061): Gác chung 4 lần
+  -> Cặp (CB017, CB068): Gác chung 3 lần
+  -> Cặp (CB017, CB070): Gác chung 3 lần
+  -> Cặp (CB019, CB036): Gác chung 3 lần
+  -> Cặp (CB019, CB053): Gác chung 4 lần
+  -> Cặp (CB019, CB057): Gác chung 3 lần
+  -> Cặp (CB019, CB061): Gác chung 3 lần
+  -> Cặp (CB019, CB068): Gác chung 4 lần
+  -> Cặp (CB019, CB070): Gác chung 4 lần
+  -> Cặp (CB021, CB030): Gác chung 3 lần
+  -> Cặp (CB021, CB034): Gác chung 3 lần
+  -> Cặp (CB021, CB041): Gác chung 3 lần
+  -> Cặp (CB021, CB044): Gác chung 4 lần
+  -> Cặp (CB021, CB048): Gác chung 4 lần
+  -> Cặp (CB021, CB053): Gác chung 3 lần
+  -> Cặp (CB021, CB057): Gác chung 3 lần
+  -> Cặp (CB021, CB061): Gác chung 3 lần
+  -> Cặp (CB021, CB068): Gác chung 5 lần
+  -> Cặp (CB021, CB070): Gác chung 5 lần
+  -> Cặp (CB025, CB052): Gác chung 3 lần
+  -> Cặp (CB027, CB041): Gác chung 3 lần
+  -> Cặp (CB027, CB052): Gác chung 3 lần
+  -> Cặp (CB028, CB034): Gác chung 3 lần
+  -> Cặp (CB028, CB041): Gác chung 3 lần
+  -> Cặp (CB028, CB044): Gác chung 3 lần
+  -> Cặp (CB030, CB033): Gác chung 4 lần
+  -> Cặp (CB033, CB039): Gác chung 3 lần
+  -> Cặp (CB033, CB041): Gác chung 3 lần
+  -> Cặp (CB033, CB044): Gác chung 4 lần
+  -> Cặp (CB033, CB048): Gác chung 3 lần
+  -> Cặp (CB033, CB053): Gác chung 4 lần
+  -> Cặp (CB033, CB057): Gác chung 4 lần
+  -> Cặp (CB033, CB061): Gác chung 3 lần
+  -> Cặp (CB033, CB068): Gác chung 3 lần
+  -> Cặp (CB033, CB070): Gác chung 5 lần
+  -> Cặp (CB034, CB042): Gác chung 4 lần
+  -> Cặp (CB034, CB044): Gác chung 4 lần
+  -> Cặp (CB034, CB048): Gác chung 5 lần
+  -> Cặp (CB034, CB052): Gác chung 4 lần
+  -> Cặp (CB034, CB053): Gác chung 3 lần
+  -> Cặp (CB034, CB070): Gác chung 3 lần
+  -> Cặp (CB036, CB042): Gác chung 3 lần
+  -> Cặp (CB036, CB044): Gác chung 4 lần
+  -> Cặp (CB036, CB052): Gác chung 3 lần
+  -> Cặp (CB036, CB068): Gác chung 3 lần
+  -> Cặp (CB036, CB072): Gác chung 3 lần
+  -> Cặp (CB039, CB052): Gác chung 4 lần
+  -> Cặp (CB041, CB042): Gác chung 3 lần
+  -> Cặp (CB041, CB044): Gác chung 3 lần
+  -> Cặp (CB042, CB044): Gác chung 4 lần
+  -> Cặp (CB042, CB052): Gác chung 4 lần
+  -> Cặp (CB044, CB048): Gác chung 3 lần
+  -> Cặp (CB044, CB052): Gác chung 3 lần
+  -> Cặp (CB044, CB053): Gác chung 3 lần
+  -> Cặp (CB044, CB057): Gác chung 3 lần
+  -> Cặp (CB044, CB061): Gác chung 3 lần
+  -> Cặp (CB044, CB068): Gác chung 3 lần
+  -> Cặp (CB044, CB070): Gác chung 3 lần
+  -> Cặp (CB044, CB072): Gác chung 3 lần
+  -> Cặp (CB048, CB052): Gác chung 4 lần
+  -> Cặp (CB052, CB057): Gác chung 4 lần
+  -> Cặp (CB052, CB068): Gác chung 3 lần
+  -> Cặp (CB052, CB070): Gác chung 3 lần
+  -> Cặp (CB004, CB035): Gác chung 3 lần
+  -> Cặp (CB010, CB064): Gác chung 4 lần
+  -> Cặp (CB018, CB035): Gác chung 3 lần
+  -> Cặp (CB018, CB047): Gác chung 5 lần
+  -> Cặp (CB018, CB064): Gác chung 4 lần
+  -> Cặp (CB023, CB026): Gác chung 3 lần
+  -> Cặp (CB024, CB035): Gác chung 4 lần
+  -> Cặp (CB026, CB029): Gác chung 4 lần
+  -> Cặp (CB026, CB035): Gác chung 3 lần
+  -> Cặp (CB026, CB060): Gác chung 6 lần
+  -> Cặp (CB026, CB064): Gác chung 7 lần
+  -> Cặp (CB035, CB067): Gác chung 3 lần
+  -> Cặp (CB047, CB060): Gác chung 6 lần
+  -> Cặp (CB047, CB066): Gác chung 4 lần
+  -> Cặp (CB060, CB064): Gác chung 5 lần
+  -> Cặp (CB064, CB066): Gác chung 5 lần
+  -> Cặp (CB024, CB062): Gác chung 3 lần
+  -> Cặp (CB006, CB020): Gác chung 3 lần
+  -> Cặp (CB006, CB029): Gác chung 3 lần
+  -> Cặp (CB006, CB040): Gác chung 3 lần
+  -> Cặp (CB006, CB056): Gác chung 4 lần
+  -> Cặp (CB006, CB059): Gác chung 4 lần
+  -> Cặp (CB006, CB064): Gác chung 3 lần
+  -> Cặp (CB006, CB065): Gác chung 4 lần
+  -> Cặp (CB013, CB029): Gác chung 3 lần
+  -> Cặp (CB020, CB021): Gác chung 4 lần
+  -> Cặp (CB020, CB037): Gác chung 5 lần
+  -> Cặp (CB020, CB040): Gác chung 4 lần
+  -> Cặp (CB020, CB064): Gác chung 4 lần
+  -> Cặp (CB021, CB037): Gác chung 4 lần
+  -> Cặp (CB021, CB040): Gác chung 4 lần
+  -> Cặp (CB021, CB047): Gác chung 4 lần
+  -> Cặp (CB021, CB056): Gác chung 4 lần
+  -> Cặp (CB021, CB059): Gác chung 4 lần
+  -> Cặp (CB021, CB064): Gác chung 3 lần
+  -> Cặp (CB021, CB065): Gác chung 3 lần
+  -> Cặp (CB023, CB028): Gác chung 3 lần
+  -> Cặp (CB023, CB037): Gác chung 3 lần
+  -> Cặp (CB028, CB029): Gác chung 3 lần
+  -> Cặp (CB028, CB037): Gác chung 4 lần
+  -> Cặp (CB028, CB056): Gác chung 4 lần
+  -> Cặp (CB029, CB037): Gác chung 4 lần
+  -> Cặp (CB034, CB037): Gác chung 4 lần
+  -> Cặp (CB034, CB059): Gác chung 3 lần
+  -> Cặp (CB037, CB040): Gác chung 3 lần
+  -> Cặp (CB037, CB048): Gác chung 5 lần
+  -> Cặp (CB037, CB056): Gác chung 4 lần
+  -> Cặp (CB037, CB059): Gác chung 4 lần
+  -> Cặp (CB037, CB061): Gác chung 3 lần
+  -> Cặp (CB037, CB064): Gác chung 3 lần
+  -> Cặp (CB037, CB065): Gác chung 4 lần
+  -> Cặp (CB037, CB068): Gác chung 3 lần
+  -> Cặp (CB040, CB066): Gác chung 4 lần
+  -> Cặp (CB040, CB068): Gác chung 5 lần
+  -> Cặp (CB048, CB066): Gác chung 3 lần
+  -> Cặp (CB059, CB066): Gác chung 4 lần
+  -> Cặp (CB064, CB068): Gác chung 3 lần
+  -> Cặp (CB066, CB068): Gác chung 5 lần
+  -> Cặp (CB007, CB045): Gác chung 3 lần
+  -> Cặp (CB014, CB045): Gác chung 3 lần
+  -> Cặp (CB017, CB045): Gác chung 3 lần
+  -> Cặp (CB045, CB050): Gác chung 3 lần
+  -> Cặp (CB045, CB063): Gác chung 3 lần
+  -> Cặp (CB053, CB063): Gác chung 3 lần
+  -> Cặp (CB002, CB046): Gác chung 3 lần
+  -> Cặp (CB003, CB040): Gác chung 3 lần
+  -> Cặp (CB003, CB064): Gác chung 3 lần
+  -> Cặp (CB005, CB009): Gác chung 4 lần
+  -> Cặp (CB005, CB026): Gác chung 3 lần
+  -> Cặp (CB005, CB033): Gác chung 3 lần
+  -> Cặp (CB005, CB046): Gác chung 3 lần
+  -> Cặp (CB005, CB068): Gác chung 5 lần
+  -> Cặp (CB007, CB038): Gác chung 3 lần
+  -> Cặp (CB007, CB046): Gác chung 5 lần
+  -> Cặp (CB007, CB047): Gác chung 3 lần
+  -> Cặp (CB007, CB059): Gác chung 3 lần
+  -> Cặp (CB007, CB064): Gác chung 3 lần
+  -> Cặp (CB009, CB054): Gác chung 3 lần
+  -> Cặp (CB009, CB056): Gác chung 3 lần
+  -> Cặp (CB019, CB038): Gác chung 4 lần
+  -> Cặp (CB019, CB040): Gác chung 3 lần
+  -> Cặp (CB019, CB046): Gác chung 3 lần
+  -> Cặp (CB019, CB047): Gác chung 3 lần
+  -> Cặp (CB019, CB064): Gác chung 4 lần
+  -> Cặp (CB026, CB040): Gác chung 3 lần
+  -> Cặp (CB026, CB054): Gác chung 3 lần
+  -> Cặp (CB026, CB069): Gác chung 3 lần
+  -> Cặp (CB032, CB054): Gác chung 4 lần
+  -> Cặp (CB033, CB038): Gác chung 5 lần
+  -> Cặp (CB033, CB040): Gác chung 3 lần
+  -> Cặp (CB033, CB045): Gác chung 3 lần
+  -> Cặp (CB033, CB047): Gác chung 3 lần
+  -> Cặp (CB033, CB056): Gác chung 3 lần
+  -> Cặp (CB033, CB059): Gác chung 4 lần
+  -> Cặp (CB033, CB064): Gác chung 4 lần
+  -> Cặp (CB033, CB069): Gác chung 3 lần
+  -> Cặp (CB038, CB051): Gác chung 4 lần
+  -> Cặp (CB038, CB060): Gác chung 3 lần
+  -> Cặp (CB038, CB066): Gác chung 3 lần
+  -> Cặp (CB038, CB071): Gác chung 4 lần
+  -> Cặp (CB040, CB050): Gác chung 3 lần
+  -> Cặp (CB040, CB071): Gác chung 4 lần
+  -> Cặp (CB043, CB046): Gác chung 3 lần
+  -> Cặp (CB045, CB051): Gác chung 4 lần
+  -> Cặp (CB045, CB060): Gác chung 3 lần
+  -> Cặp (CB045, CB066): Gác chung 3 lần
+  -> Cặp (CB045, CB071): Gác chung 3 lần
+  -> Cặp (CB046, CB051): Gác chung 5 lần
+  -> Cặp (CB046, CB054): Gác chung 3 lần
+  -> Cặp (CB046, CB056): Gác chung 3 lần
+  -> Cặp (CB046, CB058): Gác chung 3 lần
+  -> Cặp (CB046, CB060): Gác chung 3 lần
+  -> Cặp (CB046, CB064): Gác chung 3 lần
+  -> Cặp (CB046, CB069): Gác chung 3 lần
+  -> Cặp (CB046, CB071): Gác chung 4 lần
+  -> Cặp (CB047, CB051): Gác chung 3 lần
+  -> Cặp (CB047, CB071): Gác chung 3 lần
+  -> Cặp (CB051, CB053): Gác chung 4 lần
+  -> Cặp (CB051, CB059): Gác chung 5 lần
+  -> Cặp (CB051, CB064): Gác chung 4 lần
+  -> Cặp (CB051, CB070): Gác chung 4 lần
+  -> Cặp (CB053, CB060): Gác chung 3 lần
+  -> Cặp (CB053, CB066): Gác chung 3 lần
+  -> Cặp (CB054, CB068): Gác chung 4 lần
+  -> Cặp (CB055, CB064): Gác chung 4 lần
+  -> Cặp (CB060, CB068): Gác chung 3 lần
+  -> Cặp (CB060, CB070): Gác chung 3 lần
+  -> Cặp (CB064, CB071): Gác chung 3 lần
+  -> Cặp (CB066, CB070): Gác chung 3 lần
+  -> Cặp (CB068, CB071): Gác chung 4 lần
+  -> Cặp (CB070, CB071): Gác chung 4 lần
+  -> Cặp (CB004, CB015): Gác chung 3 lần
+  -> Cặp (CB004, CB017): Gác chung 3 lần
+  -> Cặp (CB004, CB037): Gác chung 3 lần
+  -> Cặp (CB004, CB041): Gác chung 4 lần
+  -> Cặp (CB004, CB049): Gác chung 3 lần
+  -> Cặp (CB004, CB052): Gác chung 3 lần
+  -> Cặp (CB004, CB062): Gác chung 3 lần
+  -> Cặp (CB015, CB024): Gác chung 3 lần
+  -> Cặp (CB015, CB065): Gác chung 3 lần
+  -> Cặp (CB015, CB067): Gác chung 3 lần
+  -> Cặp (CB017, CB024): Gác chung 3 lần
+  -> Cặp (CB017, CB059): Gác chung 3 lần
+  -> Cặp (CB024, CB041): Gác chung 3 lần
+  -> Cặp (CB024, CB044): Gác chung 4 lần
+  -> Cặp (CB024, CB073): Gác chung 3 lần
+  -> Cặp (CB025, CB049): Gác chung 3 lần
+  -> Cặp (CB025, CB073): Gác chung 3 lần
+  -> Cặp (CB029, CB042): Gác chung 3 lần
+  -> Cặp (CB029, CB044): Gác chung 4 lần
+  -> Cặp (CB029, CB049): Gác chung 3 lần
+  -> Cặp (CB029, CB052): Gác chung 3 lần
+  -> Cặp (CB029, CB073): Gác chung 4 lần
+  -> Cặp (CB034, CB073): Gác chung 3 lần
+  -> Cặp (CB035, CB042): Gác chung 3 lần
+  -> Cặp (CB037, CB039): Gác chung 3 lần
+  -> Cặp (CB037, CB050): Gác chung 3 lần
+  -> Cặp (CB037, CB057): Gác chung 3 lần
+  -> Cặp (CB037, CB067): Gác chung 3 lần
+  -> Cặp (CB039, CB049): Gác chung 4 lần
+  -> Cặp (CB039, CB073): Gác chung 4 lần
+  -> Cặp (CB041, CB050): Gác chung 3 lần
+  -> Cặp (CB041, CB067): Gác chung 3 lần
+  -> Cặp (CB042, CB049): Gác chung 3 lần
+  -> Cặp (CB042, CB062): Gác chung 3 lần
+  -> Cặp (CB044, CB059): Gác chung 3 lần
+  -> Cặp (CB044, CB062): Gác chung 3 lần
+  -> Cặp (CB044, CB063): Gác chung 4 lần
+  -> Cặp (CB044, CB067): Gác chung 3 lần
+  -> Cặp (CB044, CB073): Gác chung 4 lần
+  -> Cặp (CB048, CB049): Gác chung 4 lần
+  -> Cặp (CB048, CB062): Gác chung 3 lần
+  -> Cặp (CB048, CB073): Gác chung 3 lần
+  -> Cặp (CB049, CB057): Gác chung 3 lần
+  -> Cặp (CB049, CB059): Gác chung 4 lần
+  -> Cặp (CB049, CB072): Gác chung 3 lần
+  -> Cặp (CB052, CB067): Gác chung 3 lần
+  -> Cặp (CB059, CB062): Gác chung 3 lần
+  -> Cặp (CB059, CB063): Gác chung 4 lần
+  -> Cặp (CB065, CB073): Gác chung 3 lần
+  -> Cặp (CB008, CB052): Gác chung 3 lần
+  -> Cặp (CB008, CB073): Gác chung 3 lần
+  -> Cặp (CB010, CB049): Gác chung 4 lần
+  -> Cặp (CB014, CB026): Gác chung 3 lần
+  -> Cặp (CB016, CB038): Gác chung 3 lần
+  -> Cặp (CB016, CB064): Gác chung 3 lần
+  -> Cặp (CB018, CB038): Gác chung 4 lần
+  -> Cặp (CB018, CB040): Gác chung 3 lần
+  -> Cặp (CB018, CB048): Gác chung 3 lần
+  -> Cặp (CB018, CB049): Gác chung 4 lần
+  -> Cặp (CB018, CB053): Gác chung 3 lần
+  -> Cặp (CB018, CB070): Gác chung 5 lần
+  -> Cặp (CB020, CB052): Gác chung 3 lần
+  -> Cặp (CB020, CB073): Gác chung 3 lần
+  -> Cặp (CB022, CB038): Gác chung 3 lần
+  -> Cặp (CB022, CB042): Gác chung 3 lần
+  -> Cặp (CB022, CB047): Gác chung 3 lần
+  -> Cặp (CB022, CB064): Gác chung 4 lần
+  -> Cặp (CB026, CB049): Gác chung 4 lần
+  -> Cặp (CB026, CB052): Gác chung 3 lần
+  -> Cặp (CB036, CB073): Gác chung 3 lần
+  -> Cặp (CB038, CB049): Gác chung 4 lần
+  -> Cặp (CB047, CB049): Gác chung 3 lần
+  -> Cặp (CB049, CB053): Gác chung 3 lần
+  -> Cặp (CB049, CB064): Gác chung 4 lần
+  -> Cặp (CB049, CB070): Gác chung 3 lần
+  -> Cặp (CB068, CB073): Gác chung 3 lần
+  -> Cặp (CB001, CB004): Gác chung 3 lần
+  -> Cặp (CB005, CB027): Gác chung 4 lần
+  -> Cặp (CB005, CB028): Gác chung 3 lần
+  -> Cặp (CB011, CB026): Gác chung 5 lần
+  -> Cặp (CB011, CB054): Gác chung 3 lần
+  -> Cặp (CB026, CB037): Gác chung 4 lần
+  -> Cặp (CB027, CB037): Gác chung 3 lần
+  -> Cặp (CB027, CB054): Gác chung 4 lần
+  -> Cặp (CB027, CB060): Gác chung 3 lần
+  -> Cặp (CB028, CB054): Gác chung 3 lần
+  -> Cặp (CB037, CB054): Gác chung 5 lần
+  -> Cặp (CB052, CB054): Gác chung 3 lần
+  -> Cặp (CB057, CB071): Gác chung 3 lần
+  -> Cặp (CB008, CB021): Gác chung 4 lần
+  -> Cặp (CB008, CB037): Gác chung 3 lần
+  -> Cặp (CB008, CB062): Gác chung 3 lần
+  -> Cặp (CB011, CB018): Gác chung 4 lần
+  -> Cặp (CB011, CB046): Gác chung 3 lần
+  -> Cặp (CB011, CB059): Gác chung 3 lần
+  -> Cặp (CB018, CB044): Gác chung 3 lần
+  -> Cặp (CB018, CB045): Gác chung 3 lần
+  -> Cặp (CB018, CB046): Gác chung 3 lần
+  -> Cặp (CB020, CB033): Gác chung 3 lần
+  -> Cặp (CB020, CB044): Gác chung 3 lần
+  -> Cặp (CB021, CB045): Gác chung 4 lần
+  -> Cặp (CB021, CB046): Gác chung 3 lần
+  -> Cặp (CB021, CB062): Gác chung 4 lần
+  -> Cặp (CB029, CB046): Gác chung 3 lần
+  -> Cặp (CB033, CB062): Gác chung 3 lần
+  -> Cặp (CB037, CB046): Gác chung 3 lần
+  -> Cặp (CB044, CB046): Gác chung 5 lần
+  -> Cặp (CB044, CB058): Gác chung 3 lần
+  -> Cặp (CB045, CB062): Gác chung 3 lần
+  -> Cặp (CB046, CB063): Gác chung 4 lần
+  -> Cặp (CB048, CB051): Gác chung 3 lần
+  -> Cặp (CB062, CB070): Gác chung 3 lần
+  -> Cặp (CB063, CB070): Gác chung 3 lần
+  -> Cặp (CB002, CB037): Gác chung 3 lần
+  -> Cặp (CB001, CB068): Gác chung 3 lần
+  -> Cặp (CB004, CB021): Gác chung 3 lần
+  -> Cặp (CB005, CB021): Gác chung 4 lần
+  -> Cặp (CB005, CB042): Gác chung 3 lần
+  -> Cặp (CB021, CB049): Gác chung 3 lần
+  -> Cặp (CB021, CB054): Gác chung 3 lần
+  -> Cặp (CB022, CB027): Gác chung 3 lần
+  -> Cặp (CB027, CB049): Gác chung 4 lần
+  -> Cặp (CB027, CB062): Gác chung 3 lần
+  -> Cặp (CB028, CB049): Gác chung 3 lần
+  -> Cặp (CB039, CB051): Gác chung 3 lần
+  -> Cặp (CB043, CB049): Gác chung 3 lần
+  -> Cặp (CB049, CB054): Gác chung 3 lần
+  -> Cặp (CB049, CB056): Gác chung 3 lần
+  -> Cặp (CB054, CB073): Gác chung 3 lần
+  -> Cặp (CB017, CB040): Gác chung 3 lần
+  -> Cặp (CB015, CB046): Gác chung 3 lần
+  -> Cặp (CB016, CB046): Gác chung 3 lần
+  -> Cặp (CB016, CB059): Gác chung 3 lần
+  -> Cặp (CB046, CB049): Gác chung 3 lần
+  -> Cặp (CB017, CB038): Gác chung 4 lần
+  -> Cặp (CB017, CB046): Gác chung 3 lần
+  -> Cặp (CB018, CB041): Gác chung 3 lần
+  -> Cặp (CB021, CB038): Gác chung 3 lần
+  -> Cặp (CB024, CB033): Gác chung 3 lần
+  -> Cặp (CB038, CB063): Gác chung 3 lần
+  -> Cặp (CB044, CB071): Gác chung 3 lần
+  -> Cặp (CB011, CB055): Gác chung 3 lần
+  -> Cặp (CB011, CB064): Gác chung 3 lần
+  -> Cặp (CB017, CB064): Gác chung 3 lần
+  -> Cặp (CB027, CB064): Gác chung 3 lần
+  -> Cặp (CB033, CB049): Gác chung 3 lần
+  -> Cặp (CB049, CB055): Gác chung 3 lần
+  -> Cặp (CB062, CB064): Gác chung 3 lần
+
+* [RB14] Chi tiết các lượt gác rơi vào Thứ 7 hoặc Chủ Nhật:
+  -> Cán bộ CB014 gác ca 20260531_2 vào ngày nghỉ Chủ Nhật (Cơ sở 1)
+  -> Cán bộ CB038 gác ca 20260531_2 vào ngày nghỉ Chủ Nhật (Cơ sở 1)
+  -> Cán bộ CB011 gác ca 20260531_2 vào ngày nghỉ Chủ Nhật (Cơ sở 1)
+  -> Cán bộ CB042 gác ca 20260531_2 vào ngày nghỉ Chủ Nhật (Cơ sở 1)
+  -> Cán bộ CB034 gác ca 20260531_3 vào ngày nghỉ Chủ Nhật (Cơ sở 1)
+  -> Cán bộ CB061 gác ca 20260531_3 vào ngày nghỉ Chủ Nhật (Cơ sở 1)
+  -> Cán bộ CB067 gác ca 20260531_3 vào ngày nghỉ Chủ Nhật (Cơ sở 1)
+  -> Cán bộ CB001 gác ca 20260531_3 vào ngày nghỉ Chủ Nhật (Cơ sở 1)
+  -> Cán bộ CB031 gác ca 20260613_1 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB057 gác ca 20260613_1 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB040 gác ca 20260613_1 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB047 gác ca 20260613_1 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB050 gác ca 20260613_2 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB043 gác ca 20260613_2 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB025 gác ca 20260613_2 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB015 gác ca 20260613_2 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB039 gác ca 20260613_2 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB052 gác ca 20260613_2 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB045 gác ca 20260613_2 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB014 gác ca 20260613_2 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB041 gác ca 20260613_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB069 gác ca 20260613_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB024 gác ca 20260613_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB038 gác ca 20260613_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB064 gác ca 20260613_3 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB062 gác ca 20260613_3 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB042 gác ca 20260613_3 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB006 gác ca 20260613_3 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB019 gác ca 20260613_3 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB022 gác ca 20260613_3 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB041 gác ca 20260613_4 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB011 gác ca 20260613_4 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB018 gác ca 20260613_4 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB054 gác ca 20260613_4 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB002 gác ca 20260613_4 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB007 gác ca 20260613_4 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB010 gác ca 20260613_4 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB044 gác ca 20260613_4 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB060 gác ca 20260613_4 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB046 gác ca 20260613_4 vào ngày nghỉ Thứ 7 (Cơ sở 2)
+  -> Cán bộ CB033 gác ca 20260523_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB031 gác ca 20260523_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB030 gác ca 20260523_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB039 gác ca 20260523_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB073 gác ca 20260523_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB024 gác ca 20260523_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB016 gác ca 20260530_2 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB023 gác ca 20260530_2 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB032 gác ca 20260530_2 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB045 gác ca 20260530_2 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB069 gác ca 20260530_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB048 gác ca 20260530_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB008 gác ca 20260530_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+  -> Cán bộ CB002 gác ca 20260530_3 vào ngày nghỉ Thứ 7 (Cơ sở 1)
+
+* [RB5] Thống kê tần suất gác chi tiết của các cán bộ Nữ:
+  -> Cán bộ Nữ CB003 phải trực 11 ca: 20260601_2, 20260525_2, 20260602_2, 20260602_3, 20260609_3, 20260603_1, 20260603_3, 20260610_3, 20260604_1, 20260611_3, 20260605_3
+  -> Cán bộ Nữ CB009 phải trực 10 ca: 20260601_2, 20260608_3, 20260602_3, 20260603_1, 20260611_3, 20260521_5, 20260528_4, 20260612_3, 20260612_4, 20260529_5
+  -> Cán bộ Nữ CB017 phải trực 10 ca: 20260601_3, 20260608_3, 20260602_3, 20260609_3, 20260603_2, 20260528_3, 20260605_3, 20260612_1, 20260612_3, 20260529_1
+  -> Cán bộ Nữ CB019 phải trực 10 ca: 20260601_3, 20260608_3, 20260602_3, 20260609_3, 20260603_1, 20260603_3, 20260610_4, 20260605_3, 20260612_3, 20260613_3
+  -> Cán bộ Nữ CB020 phải trực 12 ca: 20260601_2, 20260608_4, 20260602_2, 20260609_2, 20260526_5, 20260603_3, 20260610_3, 20260604_1, 20260528_5, 20260605_3, 20260612_1, 20260612_4
+  -> Cán bộ Nữ CB023 phải trực 11 ca: 20260608_2, 20260602_2, 20260602_4, 20260609_2, 20260519_5, 20260603_2, 20260603_4, 20260527_5, 20260605_4, 20260612_3, 20260530_2
+  -> Cán bộ Nữ CB024 phải trực 10 ca: 20260601_2, 20260602_2, 20260602_4, 20260609_2, 20260603_2, 20260605_3, 20260612_4, 20260529_1, 20260613_3, 20260523_3
+  -> Cán bộ Nữ CB025 phải trực 10 ca: 20260601_2, 20260608_2, 20260602_2, 20260602_3, 20260603_2, 20260611_3, 20260605_2, 20260612_3, 20260529_2, 20260613_2
+  -> Cán bộ Nữ CB028 phải trực 10 ca: 20260601_2, 20260608_3, 20260602_3, 20260609_2, 20260603_4, 20260610_3, 20260611_3, 20260605_2, 20260605_3, 20260612_3
+  -> Cán bộ Nữ CB031 phải trực 10 ca: 20260608_2, 20260608_3, 20260525_2, 20260602_2, 20260609_3, 20260603_3, 20260610_3, 20260604_2, 20260613_1, 20260523_3
+  -> Cán bộ Nữ CB033 phải trực 10 ca: 20260608_3, 20260525_5, 20260602_3, 20260603_1, 20260610_3, 20260605_3, 20260612_1, 20260612_3, 20260529_1, 20260523_3
+  -> Cán bộ Nữ CB034 phải trực 10 ca: 20260531_3, 20260608_4, 20260602_2, 20260602_3, 20260609_2, 20260603_2, 20260603_3, 20260610_3, 20260527_5, 20260612_4
+  -> Cán bộ Nữ CB035 phải trực 10 ca: 20260601_3, 20260608_2, 20260602_4, 20260609_2, 20260603_2, 20260603_3, 20260604_2, 20260521_5, 20260605_3, 20260612_3
+  -> Cán bộ Nữ CB037 phải trực 12 ca: 20260601_3, 20260608_3, 20260602_5, 20260609_2, 20260603_2, 20260603_4, 20260610_3, 20260604_1, 20260528_3, 20260605_2, 20260612_1, 20260612_4
+  -> Cán bộ Nữ CB039 phải trực 10 ca: 20260601_2, 20260608_2, 20260602_3, 20260603_2, 20260603_4, 20260611_3, 20260605_2, 20260612_3, 20260613_2, 20260523_3
+  -> Cán bộ Nữ CB041 phải trực 10 ca: 20260601_3, 20260608_2, 20260602_3, 20260603_2, 20260603_4, 20260610_1, 20260605_3, 20260612_1, 20260613_3, 20260613_4
+  -> Cán bộ Nữ CB042 phải trực 10 ca: 20260531_2, 20260601_2, 20260608_3, 20260602_3, 20260603_2, 20260603_3, 20260611_3, 20260605_3, 20260612_4, 20260613_3
+  -> Cán bộ Nữ CB047 phải trực 12 ca: 20260601_2, 20260608_2, 20260602_4, 20260609_2, 20260603_1, 20260603_3, 20260527_4, 20260604_1, 20260611_3, 20260605_3, 20260529_1, 20260613_1
+  -> Cán bộ Nữ CB051 phải trực 11 ca: 20260601_3, 20260608_3, 20260602_2, 20260603_1, 20260610_3, 20260611_3, 20260528_2, 20260605_2, 20260612_1, 20260612_3, 20260529_1
+  -> Cán bộ Nữ CB052 phải trực 11 ca: 20260601_3, 20260602_3, 20260609_4, 20260603_2, 20260603_3, 20260603_4, 20260611_3, 20260612_1, 20260612_4, 20260529_1, 20260613_2
+  -> Cán bộ Nữ CB053 phải trực 10 ca: 20260601_2, 20260608_2, 20260518_5, 20260602_3, 20260609_3, 20260603_1, 20260603_3, 20260610_3, 20260605_2, 20260529_1
+  -> Cán bộ Nữ CB054 phải trực 11 ca: 20260601_5, 20260608_2, 20260602_2, 20260603_1, 20260603_4, 20260611_3, 20260528_3, 20260605_2, 20260612_1, 20260612_4, 20260613_4
+  -> Cán bộ Nữ CB056 phải trực 10 ca: 20260608_2, 20260525_2, 20260602_2, 20260609_2, 20260603_1, 20260610_3, 20260611_3, 20260605_2, 20260612_1, 20260529_5
+  -> Cán bộ Nữ CB057 phải trực 10 ca: 20260601_2, 20260608_2, 20260525_2, 20260602_3, 20260603_2, 20260603_4, 20260605_3, 20260612_1, 20260612_3, 20260613_1
+  -> Cán bộ Nữ CB059 phải trực 10 ca: 20260601_2, 20260608_2, 20260609_2, 20260603_1, 20260603_2, 20260610_3, 20260604_2, 20260605_2, 20260612_3, 20260529_1
+  -> Cán bộ Nữ CB064 phải trực 10 ca: 20260608_2, 20260602_4, 20260609_2, 20260603_1, 20260603_3, 20260604_1, 20260612_1, 20260612_3, 20260529_1, 20260613_3
+  -> Cán bộ Nữ CB065 phải trực 10 ca: 20260601_2, 20260608_2, 20260608_4, 20260602_2, 20260609_2, 20260603_2, 20260610_3, 20260611_3, 20260605_2, 20260612_3
+  -> Cán bộ Nữ CB066 phải trực 12 ca: 20260601_3, 20260608_3, 20260525_5, 20260602_2, 20260602_4, 20260609_2, 20260603_1, 20260603_3, 20260610_3, 20260527_5, 20260528_3, 20260612_3
+  -> Cán bộ Nữ CB068 phải trực 12 ca: 20260601_2, 20260608_4, 20260525_2, 20260602_3, 20260609_2, 20260603_1, 20260603_3, 20260527_5, 20260611_3, 20260528_3, 20260605_3, 20260612_4
+  -> Cán bộ Nữ CB072 phải trực 10 ca: 20260601_2, 20260608_3, 20260602_3, 20260602_4, 20260609_3, 20260603_2, 20260610_3, 20260611_3, 20260605_2, 20260612_2
+  -> Cán bộ Nữ CB073 phải trực 11 ca: 20260601_3, 20260608_3, 20260603_2, 20260603_3, 20260611_3, 20260528_5, 20260605_2, 20260605_4, 20260612_2, 20260612_4, 20260523_3
