@@ -93,7 +93,7 @@ if run_btn:
         # --- TỔ CHỨC CÁC TAB ĐỂ XEM CHI TIẾT ---
         st.markdown("### 🔍 XEM CHI TIẾT LỖI")
         
-        tab_hard, tab_soft, tab_log = st.tabs(["🔴 Chi tiết Lỗi Cứng", "🟡 Chi tiết Lỗi Mềm", "📄 Xem File Log Tổng Hợp"])
+        tab_hard, tab_soft = st.tabs(["🔴 Chi tiết Lỗi Cứng", "🟡 Chi tiết Lỗi Mềm"])
 
         # Tab 1: CHI TIẾT LỖI CỨNG
         with tab_hard:
@@ -120,85 +120,85 @@ if run_btn:
                      with st.expander(f"✅ {rb} | Phạt: 0 điểm"):
                          st.write("Không vi phạm.")
 
-        # Tab 3: XEM FILE LOG TRỰC TIẾP TRÊN WEB
-        with tab_log:
-            st.markdown("### 📄 NỘI DUNG LOG CHI TIẾT TỔNG HỢP")
+        # # Tab 3: XEM FILE LOG TRỰC TIẾP TRÊN WEB
+        # with tab_log:
+        #     st.markdown("### 📄 NỘI DUNG LOG CHI TIẾT TỔNG HỢP")
             
-            # 1. Tính toán các biến phụ trợ (Giống hệ thống Terminal cũ)
-            df_flat = df_lich_truc.explode('DS_Can_Bo').rename(columns={'DS_Can_Bo': 'MS_CB'}).dropna(subset=['MS_CB'])
-            df_flat_full = pd.merge(df_flat, df_can_bo, on='MS_CB', how='left')
-            shift_counts = df_flat_full['MS_CB'].value_counts()
-            all_shift_counts = shift_counts.reindex(df_can_bo['MS_CB'], fill_value=0)
-            mu = len(df_flat_full) / len(df_can_bo) if len(df_can_bo) > 0 else 0
+        #     # 1. Tính toán các biến phụ trợ (Giống hệ thống Terminal cũ)
+        #     df_flat = df_lich_truc.explode('DS_Can_Bo').rename(columns={'DS_Can_Bo': 'MS_CB'}).dropna(subset=['MS_CB'])
+        #     df_flat_full = pd.merge(df_flat, df_can_bo, on='MS_CB', how='left')
+        #     shift_counts = df_flat_full['MS_CB'].value_counts()
+        #     all_shift_counts = shift_counts.reindex(df_can_bo['MS_CB'], fill_value=0)
+        #     mu = len(df_flat_full) / len(df_can_bo) if len(df_can_bo) > 0 else 0
             
-            # 2. Xây dựng chuỗi văn bản Log
-            log_text = "=========================================================\n"
-            log_text += "     BÁO CÁO ĐẦY ĐỦ CHI TIẾT VI PHẠM LỊCH TRỰC COI THI    \n"
-            log_text += "=========================================================\n\n"
+        #     # 2. Xây dựng chuỗi văn bản Log
+        #     log_text = "=========================================================\n"
+        #     log_text += "     BÁO CÁO ĐẦY ĐỦ CHI TIẾT VI PHẠM LỊCH TRỰC COI THI    \n"
+        #     log_text += "=========================================================\n\n"
             
-            log_text += f"=> TỔNG ĐIỂM PHẠT CHUNG (BENCHMARK SCORE): {total_penalty:.2f}\n\n"
+        #     log_text += f"=> TỔNG ĐIỂM PHẠT CHUNG (BENCHMARK SCORE): {total_penalty:.2f}\n\n"
             
-            log_text += "[PHẦN 1] CHI TIẾT VI PHẠM RÀNG BUỘC CỨNG (HARD CONSTRAINTS)\n"
-            log_text += "-" * 65 + "\n"
-            for rb, result in hard_results.items():
-                status = "PASS" if result['pass'] else f"FAIL ({result['violations']} lỗi)"
-                log_text += f"📌 {rb}: {status}\n"
-                if not result['pass'] and isinstance(result['details'], list):
-                    for d in result['details']:
-                        log_text += f"   -> {d}\n"
+        #     log_text += "[PHẦN 1] CHI TIẾT VI PHẠM RÀNG BUỘC CỨNG (HARD CONSTRAINTS)\n"
+        #     log_text += "-" * 65 + "\n"
+        #     for rb, result in hard_results.items():
+        #         status = "PASS" if result['pass'] else f"FAIL ({result['violations']} lỗi)"
+        #         log_text += f"📌 {rb}: {status}\n"
+        #         if not result['pass'] and isinstance(result['details'], list):
+        #             for d in result['details']:
+        #                 log_text += f"   -> {d}\n"
             
-            log_text += "\n[PHẦN 2] CHI TIẾT VI PHẠM RÀNG BUỘC MỀM (SOFT CONSTRAINTS)\n"
-            log_text += "-" * 65 + "\n"
-            for rb, info in soft_results.items():
-                if rb == "RB5_HanCheNu": continue 
-                log_text += f"[-] {rb:<30} | Phạt: {info['score']:>7.2f} điểm | {info['details']}\n"
+        #     log_text += "\n[PHẦN 2] CHI TIẾT VI PHẠM RÀNG BUỘC MỀM (SOFT CONSTRAINTS)\n"
+        #     log_text += "-" * 65 + "\n"
+        #     for rb, info in soft_results.items():
+        #         if rb == "RB5_HanCheNu": continue 
+        #         log_text += f"[-] {rb:<30} | Phạt: {info['score']:>7.2f} điểm | {info['details']}\n"
                 
-            log_text += "\n>> DANH SÁCH KHẢO SÁT CHI TIẾT TỪNG TRƯỜNG HỢP BỊ TRỪ ĐIỂM MỀM:\n"
+        #     log_text += "\n>> DANH SÁCH KHẢO SÁT CHI TIẾT TỪNG TRƯỜNG HỢP BỊ TRỪ ĐIỂM MỀM:\n"
             
-            # Bóc tách lỗi mềm (RB3, RB8, RB6, RB14, RB5...)
-            # [RB3] Không được phân công ca nào
-            log_text += "\n* [RB3] Cán bộ không được phân công ca nào (0 ca):\n"
-            skipped = all_shift_counts[all_shift_counts == 0].index.tolist()
-            log_text += f"  -> {', '.join(skipped) if skipped else 'Không có ai bị bỏ sót.'}\n"
+        #     # Bóc tách lỗi mềm (RB3, RB8, RB6, RB14, RB5...)
+        #     # [RB3] Không được phân công ca nào
+        #     log_text += "\n* [RB3] Cán bộ không được phân công ca nào (0 ca):\n"
+        #     skipped = all_shift_counts[all_shift_counts == 0].index.tolist()
+        #     log_text += f"  -> {', '.join(skipped) if skipped else 'Không có ai bị bỏ sót.'}\n"
                 
-            # [RB8] Mức độ lệch tải công việc
-            log_text += f"\n* [RB8] Mức độ lệch tải công việc (Trung bình μ = {mu:.2f} ca/người):\n"
-            for cb_id, count in all_shift_counts.items():
-                if abs(count - mu) > 1: # Chỉ in những người lệch trên 1 ca để log không bị quá dài
-                    log_text += f"  -> Cán bộ {cb_id}: Trực {count} ca (Chênh lệch: {abs(count - mu):.2f})\n"
+        #     # [RB8] Mức độ lệch tải công việc
+        #     log_text += f"\n* [RB8] Mức độ lệch tải công việc (Trung bình μ = {mu:.2f} ca/người):\n"
+        #     for cb_id, count in all_shift_counts.items():
+        #         if abs(count - mu) > 1: # Chỉ in những người lệch trên 1 ca để log không bị quá dài
+        #             log_text += f"  -> Cán bộ {cb_id}: Trực {count} ca (Chênh lệch: {abs(count - mu):.2f})\n"
 
-            # [RB6] Phân bổ ca theo Cơ sở (Cơ sở 1 vs Cơ sở 2)
-            log_text += "\n* [RB6] Phân bổ ca theo Cơ sở:\n"
-            cs_counts = df_flat_full.groupby('Co_So')['MS_CB'].count()
-            for cs, val in cs_counts.items():
-                log_text += f"  -> {cs}: {val} lượt gác\n"
+        #     # [RB6] Phân bổ ca theo Cơ sở (Cơ sở 1 vs Cơ sở 2)
+        #     log_text += "\n* [RB6] Phân bổ ca theo Cơ sở:\n"
+        #     cs_counts = df_flat_full.groupby('Co_So')['MS_CB'].count()
+        #     for cs, val in cs_counts.items():
+        #         log_text += f"  -> {cs}: {val} lượt gác\n"
 
-            # [RB14] Ca cuối tuần
-            log_text += "\n* [RB14] Ca trực rơi vào Thứ 7 hoặc Chủ Nhật:\n"
-            df_wkend = df_flat_full[df_flat_full['Thu'].isin(['Thứ 7', 'Chủ Nhật'])]
-            if not df_wkend.empty:
-                log_text += f"  -> Tổng cộng có {len(df_wkend)} lượt gác cuối tuần.\n"
-            else: 
-                log_text += "  -> Không có ca trực cuối tuần.\n"
+        #     # [RB14] Ca cuối tuần
+        #     log_text += "\n* [RB14] Ca trực rơi vào Thứ 7 hoặc Chủ Nhật:\n"
+        #     df_wkend = df_flat_full[df_flat_full['Thu'].isin(['Thứ 7', 'Chủ Nhật'])]
+        #     if not df_wkend.empty:
+        #         log_text += f"  -> Tổng cộng có {len(df_wkend)} lượt gác cuối tuần.\n"
+        #     else: 
+        #         log_text += "  -> Không có ca trực cuối tuần.\n"
 
-            # [RB9] Cán bộ trực ca liên tiếp trong ngày (Giả định bạn có cột 'Gio' hoặc thời gian)
-            log_text += "\n* [RB9] Cán bộ trực ca sát nhau (Cảnh báo gác liên tiếp):\n"
-            # Giả sử bạn kiểm tra logic này từ df_flat_full
-            log_text += "  -> Đã kiểm tra: Không phát hiện vi phạm gác sát giờ (dưới 30 phút).\n"
+        #     # [RB9] Cán bộ trực ca liên tiếp trong ngày (Giả định bạn có cột 'Gio' hoặc thời gian)
+        #     log_text += "\n* [RB9] Cán bộ trực ca sát nhau (Cảnh báo gác liên tiếp):\n"
+        #     # Giả sử bạn kiểm tra logic này từ df_flat_full
+        #     log_text += "  -> Đã kiểm tra: Không phát hiện vi phạm gác sát giờ (dưới 30 phút).\n"
 
-            # [RB11] Cán bộ trực ca vào ngày nghỉ lễ (nếu có cột Ngày lễ)
-            log_text += "\n* [RB11] Ca trực rơi vào ngày lễ:\n"
-            log_text += "  -> Đã kiểm tra: Không có ca trực rơi vào ngày lễ.\n"
+        #     # [RB11] Cán bộ trực ca vào ngày nghỉ lễ (nếu có cột Ngày lễ)
+        #     log_text += "\n* [RB11] Ca trực rơi vào ngày lễ:\n"
+        #     log_text += "  -> Đã kiểm tra: Không có ca trực rơi vào ngày lễ.\n"
             
-            # 3. In Log ra Web (Dùng st.code để tạo hộp thoại có background xám, chữ dễ nhìn)
-            st.code(log_text, language="markdown")
+        #     # 3. In Log ra Web (Dùng st.code để tạo hộp thoại có background xám, chữ dễ nhìn)
+        #     st.code(log_text, language="markdown")
             
-            # 4. Nút tải file Log xuống máy
-            st.download_button(
-                label="📥 Tải File Log (.txt)",
-                data=log_text,               # Chuyền thẳng chuỗi text vào
-                file_name="Benchmark_Log.txt",
-                mime="text/plain",           # Định dạng là text
-                use_container_width=True,
-                type="primary"               # Nút màu đậm cho nổi bật
-            )
+            # # 4. Nút tải file Log xuống máy
+            # st.download_button(
+            #     label="📥 Tải File Log (.txt)",
+            #     data=log_text,               # Chuyền thẳng chuỗi text vào
+            #     file_name="Benchmark_Log.txt",
+            #     mime="text/plain",           # Định dạng là text
+            #     use_container_width=True,
+            #     type="primary"               # Nút màu đậm cho nổi bật
+            # )
